@@ -246,7 +246,7 @@ function App() {
           <div className="row text-center">
             <div className="col-md-12">
               <div className="features-intro">
-                <h2>Welcome to Pelican, where data matters.</h2>
+                <h2>Plus d’informations sur ma méthodologie de travail</h2>
                 <p>We’ll Deliver the best stories and ideas on the topics you care about most straight to your
                   homepage, app, or inbox. </p>
               </div>
@@ -259,7 +259,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Développement Frontend</h3>
+                  <h3>Explorer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -272,7 +272,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Développement Backend</h3>
+                  <h3>Cadrer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -285,7 +285,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Design web</h3>
+                  <h3>Imaginer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -298,7 +298,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Architechture</h3>
+                  <h3>Designer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -311,7 +311,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Expérience utilisateur</h3>
+                  <h3>Tester</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -324,7 +324,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Expérience utilisateur</h3>
+                  <h3>Deployer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
