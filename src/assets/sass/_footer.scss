@@ -1,0 +1,139 @@
+
+	/*--------------------------------------------------------------
+	-------------------- Footer Small Styling Starts ---------------
+	--------------------------------------------------------------*/
+
+	.footer-sm {
+		padding: 30px 0;
+		background: rgba(30, 166, 154, 0.1);
+		background: #f6f6fd;
+		background: #555da8;
+		background: #303c42;
+		text-align: center;
+	}
+
+	.footer-sm .col-md-4:nth-child(even) {
+		text-align: center;
+	}
+
+	.footer-sm .footer-logo {
+		font-family: 'Montserrat';
+		font-size: 18px;
+		font-weight: 600;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		display: block;
+		margin-bottom: 15px;
+		text-decoration: none;
+	}
+
+	.footer-sm h6 {
+		font-size: 13px;
+		font-weight: 500;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		display: inline-block;
+	}
+
+	.footer-sm ul {
+		list-style-type: none;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.footer-sm ul li {
+		font-family: "Montserrat";
+	  font-size: 13px;
+	  font-weight: 400;
+		letter-spacing: 0;
+	  display: inline-block;
+		margin-left: 6px;
+	  margin-right: 6px;
+	}
+
+	.footer-sm ul li a {
+		font-size: 13px;
+		font-weight: 500;
+	  position: relative;
+	  display: inline-block;
+	  color: #FFFFFF;
+	  text-decoration: none;
+	}
+
+	.footer-sm ul li a:before {
+	  content: "";
+	  position: absolute;
+	  width: 100%;
+	  height: 1px;
+	  bottom: -3px;
+	  left: 0;
+	  background-color: #FFFFFF;
+	  visibility: hidden;
+	  -webkit-transform: scaleX(0);
+	  transform: scaleX(0);
+	  -webkit-transition: all 0.2s ease-in-out 0s;
+	  transition: all 0.2s ease-in-out 0s;
+	}
+
+	.footer-sm ul li a:hover:before {
+	  visibility: visible;
+	  -webkit-transform: scaleX(1);
+	  transform: scaleX(1);
+	}
+
+	.no-touch .footer-sm ul li a:hover {
+	  text-decoration: none;
+	  color: #000;
+	}
+
+
+
+	/* -------------------------------------------------------
+	----------- Bact-to-Top Styling Starts Here --------------
+	---------------------------------------------------------*/
+
+
+	.bk-top {
+		position: fixed;
+		bottom: 60px;
+		right: 30px;
+		border-radius: 3px;
+		z-index: 90;
+		display: none;
+		width: 45px;
+		height: 45px;
+		background: #4285f4;
+		color: #f2f2f0;
+		border-radius: 50%;
+		display: table;
+		box-shadow:0 5px 15px rgba(0, 0, 0, .1);
+	}
+
+	.bk-top-txt {
+		display: table-cell;
+	  vertical-align: middle;
+	  text-align: center;
+	}
+
+	.back-to-top {
+		font-family: 'Montserrat';
+		font-size: 12px;
+		font-weight: 700;
+		color: #FFFFFF;
+		text-decoration: none;
+		-webkit-transition: 200ms;
+		-moz-transition: 200ms;
+		-o-transition: 200ms;
+		transition: 200ms;
+	}
+
+	.back-to-top:hover {
+	  color: #FFFFFF;
+		text-decoration: none;
+		font-size: 13px;
+	}
+
+
+	.back-to-top:focus {
+	  color: #FFFFFF;
+	}
