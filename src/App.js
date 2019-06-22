@@ -272,7 +272,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Cadrer</h3>
+                  <h3>01 Cadrer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -285,7 +285,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Imaginer</h3>
+                  <h3>02 Imaginer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -298,7 +298,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Designer</h3>
+                  <h3>03 Designer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -311,7 +311,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Tester</h3>
+                  <h3>04 Tester</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
@@ -324,7 +324,7 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Deployer</h3>
+                  <h3>05 Deployer</h3>
                   <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
                 </div>
               </div>
