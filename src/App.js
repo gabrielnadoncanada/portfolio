@@ -247,8 +247,7 @@ function App() {
             <div className="col-md-12">
               <div className="features-intro">
                 <h2>Plus d’informations sur ma méthodologie de travail</h2>
-                <p>We’ll Deliver the best stories and ideas on the topics you care about most straight to your
-                  homepage, app, or inbox. </p>
+               
               </div>
             </div>
             <div className="col-sm-6 col-lg-4">
@@ -259,8 +258,8 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>Explorer</h3>
-                  <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+                  <h3>01 Explorer</h3>
+                  <p>Je me mets à la place de vos utilisateurs afin de comprendre leurs besoins.</p>
                 </div>
               </div>
             </div>
@@ -272,8 +271,8 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>01 Cadrer</h3>
-                  <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+                  <h3>02 Cadrer</h3>
+                  <p>Nous définissons ensemble le cadre de l’expérience et commençerons à formaliser le parcours utilisateur.</p>
                 </div>
               </div>
             </div>
@@ -285,8 +284,8 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>02 Imaginer</h3>
-                  <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+                  <h3>03 Imaginer</h3>
+                  <p>Nous allons générer plusieurs idées pour résoudre nos problématiques.</p>
                 </div>
               </div>
             </div>
@@ -298,8 +297,8 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>03 Designer</h3>
-                  <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+                  <h3>04 Designer</h3>
+                  <p>Nous concevrons et créerons un prototype interactif.</p>
                 </div>
               </div>
             </div>
@@ -311,8 +310,8 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>04 Tester</h3>
-                  <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+                  <h3>05 Tester</h3>
+                  <p>Nous allons analyser le prototype avec de vrais utilisateurs afin d’optimiser et valider la solution.</p>
                 </div>
               </div>
             </div>
@@ -324,8 +323,8 @@ function App() {
                   </div>
                 </div>
                 <div className="card-text">
-                  <h3>05 Deployer</h3>
-                  <p>Deliver the best stories and ideas on the topics you care about most straight to you.</p>
+                  <h3>06 Deployer</h3>
+                  <p>Une fois le prototype validé. Nous pourrons développer, lancer et valoriser le produit.</p>
                 </div>
               </div>
             </div>
