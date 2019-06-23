@@ -1,0 +1,87 @@
+// 
+// Variables
+// 
+
+$grey100: #424342;
+$grey200: #282828;
+$grey300: #254E70; 
+$grey400: #4c4d4c;
+$black: #000;
+$white: #fff;
+$primary: #6456F1;
+$secondary: #37CD8F;
+$shadow100: 5px 5px 0 rgba($primary, .5);
+$shadow200: 8px 8px 0 rgba($primary, .3);
+
+.bg-primary { background-color: $primary; }
+
+.bg-secondary { background-color: $secondary; }
+
+.bg-light { background-color: $grey400; }
+
+.bg-dark { background-color: $grey100; }
+
+.form-group label, 
+.form-group input { background-color: $grey100; }
+
+body { background-color: $grey200;}
+
+.card { @extend .bg-dark;}
+
+.borderBox {
+    border: 2px solid $white;
+    box-shadow: $shadow200;
+}
+
+.btn {
+    background-color: $primary;
+    transition: 0.5s all;
+    box-shadow: $shadow200;
+    &:hover {
+        background-color: darken($primary, 2%);
+        box-shadow: none;
+    }
+}
+
+a, #banner, .form-group input, footer, .bg-dark, .list-filtre, h2 {
+    color: $white;
+}
+
+input, .card, textarea {
+    @extend .borderBox;
+}
+
+nav {
+    ul { 
+       li {
+           a {
+            color: $white;
+           }
+           &:hover {
+            color: darken($white, 20%);
+        }
+       }
+    }
+}
+
+.list-filtre {
+    li {
+        border: 2px solid $white;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: $shadow200;
+    }
+}
+
+
+
+
+
+
+.featured-text {
+    background: #4608ad;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+}
+

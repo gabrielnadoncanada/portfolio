@@ -1,0 +1,17 @@
+// 
+// Header
+// 
+
+header {
+    background-image: linear-gradient(rgba(66, 66, 66, 0.7), rgba(66, 66, 66, 0.7)), url('./assets/img/bg-1.jpg');
+}
+
+header, #projects {
+    margin-bottom: 14rem;
+}
+
+nav {
+    a {
+        display: inline-block;
+    }
+}

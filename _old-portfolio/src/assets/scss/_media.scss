@@ -1,0 +1,61 @@
+$bp_s: 500px;
+$bp_m: 750px;
+$bp_l: 900px;
+$bp_xl: 1080px;
+
+// XS breakpoint
+
+.col {
+    @extend .p_2;
+}
+
+ .card {
+    @extend .p_2;
+}
+
+.row {
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.5rem; 
+}
+
+
+
+// S breakpoint
+
+@media only screen and (min-width: $bp_s) {
+   
+}
+
+// M breakpoint
+
+@media only screen and (min-width: $bp_m) {
+    .row {
+        flex-direction: row;
+    }
+}
+
+// L breakpoint
+
+@media only screen and (min-width: $bp_l) {
+    // .col {
+    //     padding: 5rem;
+    // }
+}
+
+// XL breakpoint
+
+@media only screen and (min-width: $bp_xl) {
+    // .col {
+    //     padding: 4rem;
+    // }
+}
+
+

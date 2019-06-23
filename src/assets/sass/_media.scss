@@ -1308,6 +1308,31 @@
     text-align: center;
   }
 }
+@media only screen and (max-width: 768px) {
+  
+  .navbar {
+      /*background: rgba(255, 255, 255, 0.99) !important;*/
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .navbar .navbar-nav {
+      padding-bottom: 25px;
+  }
+
+  .navbar-nav {
+      background-color: #FFFFFF;
+  }
+
+  .nav-white .nav-item .nav-link {
+      color: #4957B8;
+  }
+
+  .navbar .btn-cta {
+      padding: 0 30px;
+  }
+
+}
 
 @media only screen and (min-width: 767px) {
   .navbar-nav {
