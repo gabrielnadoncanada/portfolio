@@ -52,14 +52,11 @@
   }
 
   .hero {
-    padding: 150px 0 400px 0;
+    padding: 100px 0 300px 0;
     background: #fff;
   }
 
-  .hero .hero-content {
-    text-align: center;
-  }
-
+ 
   .hero h5 {
     font-size: 13px;
     font-weight: 600;
@@ -1290,6 +1287,10 @@
 }
 
 @media only screen and (max-width: 766px) {
+  .hero .hero-content {
+    text-align: center;
+  }
+
   .flex-split .f-right {
     flex: 1 0 50%;
     height: 360px;
@@ -1402,7 +1403,7 @@
   }
 
   .hero {
-    padding: 200px 0 200px 0;
+    padding: 175px 0 300px 0;
   }
 
   .hero .feature-img {
@@ -1489,6 +1490,7 @@
     margin-top: 0;
   }
 
+  
   .hero .hero-content {
     text-align: left;
   }

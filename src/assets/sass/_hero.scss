@@ -1,0 +1,211 @@
+.ring {
+  position: absolute;
+  border: 3px solid #959597;
+  border-radius: 50%;
+
+  .dot {
+    position: absolute;
+    width: 45px;
+    top: -25px;
+    left: 50%;
+    margin-left: -20px;
+  }
+
+  .dot span {
+    display: block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 2px #959597;
+
+    &:hover {
+      box-shadow: inset 0px 0px 0px 2px #4285f4;
+    }
+  }
+
+  &.s {
+    height: 75px;
+    width: 75px;
+
+    .dot {
+      height: 125px;
+
+      &.three {
+        animation: orbitThree 60s linear infinite;
+
+        span {
+          background: white url(../images/stack/gatsby.svg);
+        }
+      }
+
+      &.four {
+        animation: orbitFour 90s linear infinite;
+
+        span {
+          background: white url(../images/stack/gulp.svg);
+        }
+      }
+    }
+  }
+  &.m {
+    height: 200px;
+    width: 200px;
+
+    .dot {
+      height: 250px;
+
+      &.two {
+        animation: orbitTwo 40s linear infinite;
+
+        span {
+          background: white url(../images/stack/jquery-1.svg);
+        }
+      }
+
+      &.three {
+        animation: orbitThree 60s linear infinite;
+
+        span {
+          background: white url(../images/stack/laravel-1.svg);
+        }
+      }
+      &.four {
+          animation: orbitFour 90s linear infinite;
+
+          span {
+            background: white url(../images/stack/nodejs.svg);
+          }
+        }
+    }
+  }
+
+  &.l {
+    height: 350px;
+    width: 350px;
+
+    .dot {
+      height: 400px;
+
+      &.one {
+        animation: orbitOne 30s linear infinite;
+
+        span {
+          background: white url(../images/stack/bootstrap-4.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      &.two {
+            animation: orbitTwo 40s linear infinite;
+
+            span {
+              background: white url(../images/stack/node-sass.svg);
+            }
+          }
+
+          &.three {
+            animation: orbitThree 60s linear infinite;
+
+            span {
+              background: white url(../images/stack/npm.svg);
+            }
+          }
+
+          &.four {
+            animation: orbitFour 90s linear infinite;
+
+            span {
+              background: white url(../images/stack/react.svg);
+            }
+          }
+
+          &.five {
+            animation: orbitFive 150s linear infinite;
+
+            span {
+              background: white url(../images/stack/wordpress.svg);
+            }
+          }
+        }
+      }
+  
+}
+
+.flex {
+  display: flex;
+}
+
+.ring-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes orbitOne {
+  0% {
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbitTwo {
+  0% {
+  }
+
+  50% {
+    transform: rotate(-180deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes orbitThree {
+  0% {
+  }
+
+  50% {
+    transform: rotate(-180deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes orbitFour {
+  0% {
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbitFive {
+  0% {
+  }
+
+  50% {
+    transform: rotate(-180deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}

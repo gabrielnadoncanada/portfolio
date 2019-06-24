@@ -98,58 +98,61 @@ body {
   stroke-miterlimit: 10;
 }
 
-
-
-#gatsby, #wordpress, #javascript, #nodejs, #sass {
+.rotate {
   transform-origin: center;
   transition: all;
-  animation: rotate-right linear 50s;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  
-
-  &:hover {
-    animation-play-state: paused;
-  }
-}
-
-#html5, #laravel, #python {
-  transform-origin: center;
-  transition: all;
-  animation: rotate-right linear 80s;
   animation-fill-mode: none;
   animation-iteration-count: infinite;
 
- 
+  // // rotate speed x1
+  // &_1 {
+  //   animation: rotate-right linear 10s;
+  // }
+
+  // // rotate speed x2
+  // &_2 {
+  //   animation: rotate-right linear 50s;
+  // }
+
+  // // rotate speed x3
+  // &_3 {
+  //   animation: rotate-right linear 80s;
+  // }
 }
 
 
-#react, #gulp {
-  transform-origin: center;
-  transition: all;
-  animation: rotate-right linear 120s;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
+// #large-circle {
+//   transform-origin: center;
+//   animation: rotate-right linear 30s infinite;
+// }
 
- 
-}
+// #med-circle {
+//   transform-origin: center;
+//   animation: rotate-right linear 20s infinite;
+// }
 
-#planet {
-  overflow: visible;
-  // transform: rotate3d(7, -4, -2, 46deg);
-}
+// #tiny-circle {
+//   transform-origin: center;
+//   animation: rotate-right linear 10s infinite;
+// }
 
-#nodejs {
-  position: relative;
-}
-.planet-content {
-  position: absolute;
-}
-@keyframes rotate-right {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
+// #planet {
+//   overflow: visible;
+// }
+
+// @keyframes rotate-right {
+//   from {
+//     // transform: rotate3d(0, 0, 0, 0deg);
+//     transform: rotate(0deg)
+//   }
+//   to {
+//     transform: rotate(360deg)
+//     // transform: rotate3d(1, 1, 1, 360deg);
+//   }
+// }
+
+
+.card-single {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

@@ -20,11 +20,37 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/scss/animate.css"> <!-- Resource style -->
-  <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/owl.carousel.css">
-  <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/owl.theme.css">
+
   <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/ionicons.min.css"> <!-- Resource style -->
     <title>React App</title>
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <style>
+    .slick-next:before, .slick-prev:before {
+    font-size: 50px;
+    line-height: 1;
+      opacity: 1;
+    color: #ccc;
+}
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    z-index: 999;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+}
+    </style>
   </head>
+  
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
