@@ -9,7 +9,10 @@
     top: -25px;
     left: 50%;
     margin-left: -20px;
+  
   }
+
+  
 
   .dot span {
     display: block;
@@ -20,6 +23,7 @@
 
     &:hover {
       box-shadow: inset 0px 0px 0px 2px #4285f4;
+      cursor: pointer;
     }
   }
 
@@ -29,12 +33,15 @@
 
     .dot {
       height: 125px;
-
+      z-index: 3; 
       &.three {
         animation: orbitThree 60s linear infinite;
 
         span {
           background: white url(../images/stack/gatsby.svg);
+        }
+        &:hover {
+          animation-play-state: paused;
         }
       }
 
@@ -43,6 +50,9 @@
 
         span {
           background: white url(../images/stack/gulp.svg);
+        }
+        &:hover {
+          animation-play-state: paused;
         }
       }
     }
@@ -53,12 +63,15 @@
 
     .dot {
       height: 250px;
-
+       z-index: 2; 
       &.two {
         animation: orbitTwo 40s linear infinite;
 
         span {
           background: white url(../images/stack/jquery-1.svg);
+        }
+        &:hover {
+          animation-play-state: paused;
         }
       }
 
@@ -68,12 +81,18 @@
         span {
           background: white url(../images/stack/laravel-1.svg);
         }
+        &:hover {
+          animation-play-state: paused;
+        }
       }
       &.four {
           animation: orbitFour 90s linear infinite;
 
           span {
             background: white url(../images/stack/nodejs.svg);
+          }
+          &:hover {
+            animation-play-state: paused;
           }
         }
     }
@@ -85,7 +104,7 @@
 
     .dot {
       height: 400px;
-
+      z-index: 1; 
       &.one {
         animation: orbitOne 30s linear infinite;
 
@@ -94,12 +113,18 @@
           background-repeat: no-repeat;
           background-position: center;
         }
+        &:hover {
+          animation-play-state: paused;
+        }
       }
       &.two {
             animation: orbitTwo 40s linear infinite;
 
             span {
               background: white url(../images/stack/node-sass.svg);
+            }
+            &:hover {
+              animation-play-state: paused;
             }
           }
 
@@ -109,6 +134,9 @@
             span {
               background: white url(../images/stack/npm.svg);
             }
+            &:hover {
+              animation-play-state: paused;
+            }
           }
 
           &.four {
@@ -117,14 +145,33 @@
             span {
               background: white url(../images/stack/react.svg);
             }
+            &:hover {
+              animation-play-state: paused;
+            }
           }
 
           &.five {
             animation: orbitFive 150s linear infinite;
-
+            transition: 0.5s all;
             span {
               background: white url(../images/stack/wordpress.svg);
             }
+            &:hover {
+              animation-play-state: paused;
+              // &::before {
+              //   opacity: 1;
+              // }
+            }
+
+            // &::before{
+            //   content: "blabla";
+            //   opacity: 0;
+            //   height: 0;
+            //   position: absolute;
+            //   top: -20px;
+            //   transition : 0.5s all;
+            //   background: black;
+            // }
           }
         }
       }

@@ -7,7 +7,7 @@ export default class Header extends Component {
             <header className="App-header">
             <nav className="navbar navbar-light bg-light fixed-top">
               <div className="container container">
-                <Link id="logo" className="navbar-brand" href="#">Nadon Gabriel</Link>
+                <Link id="logo" className="navbar-brand" href="#">GN</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>

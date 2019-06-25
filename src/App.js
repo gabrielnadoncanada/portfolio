@@ -26,21 +26,41 @@ export default class App extends Component {
                 <div className="col-sm-12 col-md-6 flex justify-content-center align-items-center">
                   <div class="ring-container">
                     <div class="ring s">
-                      <div class="dot three"><span></span></div>
-                      <div class="dot four"><span></span></div>
+                      <div class="dot three">
+                        <span></span>
+                      </div>
+                      <div class="dot four">
+                        <span></span>
+                      </div>
                     </div>
 
                     <div class="ring m">
-                      <div class="dot two"><span></span></div>
-                      <div class="dot three"><span></span></div>
-                      <div class="dot four"><span></span></div>
+                      <div class="dot two">
+                        <span></span>
+                      </div>
+                      <div class="dot three">
+                        <span></span>
+                      </div>
+                      <div class="dot four">
+                        <span></span>
+                      </div>
                     </div>
                     <div class="ring l">
-                      <div class="dot one"><span></span></div>
-                      <div class="dot two"><span></span></div>
-                      <div class="dot three"><span></span></div>
-                      <div class="dot four"><span></span></div>
-                      <div class="dot five"><span></span></div>
+                      <div class="dot one">
+                        <span></span>
+                      </div>
+                      <div class="dot two">
+                        <span></span>
+                      </div>
+                      <div class="dot three">
+                        <span></span>
+                      </div>
+                      <div class="dot four">
+                        <span></span>
+                      </div>
+                      <div class="dot five">
+                        <span></span>
+                      </div>
                     </div>
                   </div>
 
@@ -48,27 +68,24 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-
-
           <div id="features" className="features">
             <div className="container-m">
               <div className="row text-center">
                 <div className="col-md-12">
                   <div className="features-intro">
                     <h2>Plus d’informations sur ma méthodologie de travail</h2>
-
                   </div>
                 </div>
                 <div className="col-sm-6 col-lg-4">
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
-                        <img src="assets/icons/p1.png" width="60" alt="Feature" />
+                        <img src="assets/images/locate.svg" alt="Feature" />
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>01 Explorer</h3>
-                      <p>Je me mets à la place de vos utilisateurs afin de comprendre leurs besoins.</p>
+                      <h3>01 Définir</h3>
+                      <p>Nous commencons par definir le projet en générale.</p>
                     </div>
                   </div>
                 </div>
@@ -76,12 +93,12 @@ export default class App extends Component {
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
-                        <img src="assets/icons/p2.png" width="60" alt="Feature" />
+                        <img src="assets/images/process.svg" alt="Feature" />
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>02 Cadrer</h3>
-                      <p>Nous définissons ensemble le cadre de l’expérience et commençerons à formaliser le parcours utilisateur.</p>
+                      <h3>02 Fractionner</h3>
+                      <p>Nous définissons les requis et les delais du projet.</p>
                     </div>
                   </div>
                 </div>
@@ -93,8 +110,8 @@ export default class App extends Component {
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>03 Imaginer</h3>
-                      <p>Nous allons générer plusieurs idées pour résoudre nos problématiques.</p>
+                      <h3>03 Structurer</h3>
+                      <p>Nous allons générer les maquettes en fils de fer pour les differents appareil ainsi que la structure du projet.</p>
                     </div>
                   </div>
                 </div>
@@ -107,7 +124,7 @@ export default class App extends Component {
                     </div>
                     <div className="card-text">
                       <h3>04 Designer</h3>
-                      <p>Nous concevrons et créerons un prototype interactif.</p>
+                      <p>Nous allons generer le style et l'image de la compagnie.</p>
                     </div>
                   </div>
                 </div>
@@ -119,8 +136,8 @@ export default class App extends Component {
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>05 Tester</h3>
-                      <p>Nous allons analyser le prototype avec de vrais utilisateurs afin d’optimiser et valider la solution.</p>
+                      <h3>05 Developper</h3>
+                      <p>Nous allons developper le projet.</p>
                     </div>
                   </div>
                 </div>
@@ -132,15 +149,27 @@ export default class App extends Component {
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>06 Deployer</h3>
-                      <p>Une fois le prototype validé. Nous pourrons développer, lancer et valoriser le produit.</p>
+                      <h3>06 Tester</h3>
+                      <p>Nous allons entammer une series de test afin de s'assurer du bon travail.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-6 col-lg-4">
+                  <div className="feature-list">
+                    <div className="card-icon">
+                      <div className="card-img">
+                        <img src="assets/icons/p6.png" width="60" alt="Feature" />
+                      </div>
+                    </div>
+                    <div className="card-text">
+                      <h3>07 Deployer</h3>
+                      <p>Nous sommes enfin pret a deployer le projet sur le web.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div id="pricing" className="pricing-section text-center">
             <div className="container">
               <div className="row">
@@ -148,50 +177,44 @@ export default class App extends Component {
                   <div className="pricing-intro">
                     <h1>Mes projets actifs</h1>
                     <p>
-                      Our plans are designed to meet the requirements of both beginners and players.
-                      Get the right plan that suits you.
+                      Rien de mieux que quelques projets realiser avec passion.
                 </p>
                   </div>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="table-left">
                         <h3>Projets 1</h3>
-                        <p>Free limited features</p>
+                        <p>Realiser pour nomDuSiteWeb.com</p>
                         <div className="pricing-details">
                           <span>Free</span>
                         </div>
                         <button className="btn btn-primary btn-action" type="button">Voir plus</button>
                       </div>
                     </div>
-
                     <div className="col-md-6">
                       <div className="table-right">
                         <h3>Projets 2</h3>
-                        <p>Unlimited Lifetime</p>
-
+                        <p>Realiser pour nomDuSiteWeb.com</p>
                         <div className="pricing-details">
                           <span>$99.99</span>
                         </div>
                         <button className="btn btn-primary btn-action btn-white" type="button">Voir plus</button>
                       </div>
                     </div>
-
                     <div className="col-md-6">
                       <div className="table-left">
                         <h3>Projets 3</h3>
-                        <p>Free limited features</p>
+                        <p>Realiser pour nomDuSiteWeb.com</p>
                         <div className="pricing-details">
                           <span>Free</span>
                         </div>
                         <button className="btn btn-primary btn-action" type="button">Voir plus</button>
                       </div>
                     </div>
-
                     <div className="col-md-6">
                       <div className="table-right">
                         <h3>Projets 4</h3>
-                        <p>Unlimited Lifetime</p>
-
+                        <p>Realiser pour nomDuSiteWeb.com</p>
                         <div className="pricing-details">
                           <span>$99.99</span>
                         </div>
@@ -199,72 +222,32 @@ export default class App extends Component {
                       </div>
                     </div>
                   </div>
-
-
-
                 </div>
               </div>
             </div>
           </div>
-
-
-
-
           <div id="reviews" className="yd-reviews">
-
             <div className="container-s">
               <div className="row text-center">
                 <div className="col-sm-12 col-lg-8 offset-lg-2">
                   <div className="intro">
-                    <h1>Served our best for the awesome clients</h1>
-                    <p>We have very fair pricing policy that would benefit you and us at the same time.
-                      Get the free plan  if you need more - pay.
-                </p>
+                    <h1>Quelques commentaires de clients et collegues</h1>
                   </div>
                 </div>
-
                 <div className="col-sm-12 col-lg-12 text-center">
                   <Slide />
-                 
                 </div>
-
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
-          {/* <div id="contact" className="cta-sm">
-        <div className="container-m text-center">
-          <div className="cta-content">
-            <h4>WHAT ARE YOU WAITING FOR?</h4>
-            <h1>Start now and turn your online business into a profitable route.</h1>
-           
-          </div>
-        </div>
-      </div> */}
-
-
-
           <Footer />
-
-
-
           {/* <div id="back-top" className="bk-top">
             <div className="bk-top-txt">
               <Link className="back-to-top js-scroll-trigger" href="#main">Up</Link>
             </div>
           </div> */}
-
-
         </div>
       </div>
-
     )
   }
 }
