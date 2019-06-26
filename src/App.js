@@ -4,12 +4,13 @@ import Header from './components/Header.js'
 import Footer from './components/Footer.js'
 import Review from './components/Review.js';
 import Project from './components/Project.js';
-
+import ContactPage from './components/contacts/ContactsPage.js'
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
+
         <Header />
         <div id="main" className="main">
           <div className="hero">
@@ -20,7 +21,7 @@ export default class App extends Component {
                     <h2>Mon portfolio</h2>
                     <p>Passionné du développement web, j’aime comprendre le fonctionnement des éléments de mon environnement
                   et j’adore par-dessus tout résoudre des problèmes.</p>
-                    <button className="btn btn-primary btn-action" type="button">Prendre un rendez-vous</button>
+                    <button className="btn btn-primary btn-action" type="button">Me contacter</button>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 flex justify-content-center align-items-center">
@@ -71,10 +72,10 @@ export default class App extends Component {
               <div className="row text-center">
                 <div className="col-md-12">
                   <div className="features-intro">
-                    <h2>Plus d’informations sur ma méthodologie de travail</h2>
+                    <h2>Plus d’informations sur mes spécialités</h2>
                   </div>
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6">
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
@@ -82,12 +83,13 @@ export default class App extends Component {
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>01 Définir</h3>
-                      <p>Nous commencons par definir le projet en générale.</p>
+                      <h3>Développement Front-End</h3>
+                      <p>J'utilise les langages HTML5, CSS3 et le préprocesseur Sass, React et JavaScript.</p>
+                      <p>J'effectue quotidiennement une veille technologique afin de me tenir informée des dernières évolutions en matière de développement front-end : JavaScript, Jquery, React, Gatsby, Node.js, Gulp... </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6">
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
@@ -95,79 +97,17 @@ export default class App extends Component {
                       </div>
                     </div>
                     <div className="card-text">
-                      <h3>02 Fractionner</h3>
-                      <p>Nous définissons les requis et les delais du projet.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-4">
-                  <div className="feature-list">
-                    <div className="card-icon">
-                      <div className="card-img">
-                        <img src="assets/icons/p3.png" width="60" alt="Feature" />
-                      </div>
-                    </div>
-                    <div className="card-text">
-                      <h3>03 Structurer</h3>
-                      <p>Nous allons générer les maquettes en fils de fer pour les differents appareil ainsi que la structure du projet.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-4">
-                  <div className="feature-list">
-                    <div className="card-icon">
-                      <div className="card-img">
-                        <img src="assets/icons/p4.png" width="60" alt="Feature" />
-                      </div>
-                    </div>
-                    <div className="card-text">
-                      <h3>04 Designer</h3>
-                      <p>Nous allons generer le style et l'image de la compagnie.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-4">
-                  <div className="feature-list">
-                    <div className="card-icon">
-                      <div className="card-img">
-                        <img src="assets/icons/p5.png" width="60" alt="Feature" />
-                      </div>
-                    </div>
-                    <div className="card-text">
-                      <h3>05 Developper</h3>
-                      <p>Nous allons developper le projet.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-4">
-                  <div className="feature-list">
-                    <div className="card-icon">
-                      <div className="card-img">
-                        <img src="assets/icons/p6.png" width="60" alt="Feature" />
-                      </div>
-                    </div>
-                    <div className="card-text">
-                      <h3>06 Tester</h3>
-                      <p>Nous allons entammer une series de test afin de s'assurer du bon travail.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-4">
-                  <div className="feature-list">
-                    <div className="card-icon">
-                      <div className="card-img">
-                        <img src="assets/icons/p6.png" width="60" alt="Feature" />
-                      </div>
-                    </div>
-                    <div className="card-text">
-                      <h3>07 Deployer</h3>
-                      <p>Nous sommes enfin pret a deployer le projet sur le web.</p>
+                      <h3>Développement Back-End</h3>
+                      <p>J'utilise les langages PHP, MYSQL ainsi que Laravel et WordPress.</p>
+                      <p>J'aime me tenir informée des dernières évolutions en matière de développement back-end.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+
           <div id="pricing" className="pricing-section yd-reviews text-center">
             <div className="container-s">
               <div className="row">
@@ -192,8 +132,20 @@ export default class App extends Component {
                   </div>
                 </div>
                 <div className="col-sm-12 col-lg-12 text-center">
-                <Review />
+                  <Review />
                 </div>
+              </div>
+            </div>
+          </div>
+          <div id="buy" className="cta-sm">
+            <div className="container-m text-center">
+              <div className="cta-content mb-5">
+              
+                <h1>Contactez-moi</h1>
+
+              </div>
+              <div className="col-sm-6 offset-lg-3 mt-5 ">
+                <ContactPage />
               </div>
             </div>
           </div>

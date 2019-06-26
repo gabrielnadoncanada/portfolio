@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
 
+
 export default class Header extends Component {
+ 
     render() {
         return (
             <header id="header" className="App-header">
@@ -20,6 +22,7 @@ export default class Header extends Component {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#reviews">Témoignages</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#buy">Contact</a></li>
                   </ul>
+                  
                 </div>
               </div>
             </nav>

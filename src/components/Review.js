@@ -7,16 +7,7 @@ export default class Review extends Component {
   render() {
     var settings = {
       speed: 500,
-      slidesToShow: 2,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            
-          }
-        }
-      ]
+      slidesToShow: 1,
     };
     return (
       <div>
@@ -31,11 +22,6 @@ export default class Review extends Component {
               <div className="review-img">
                 <img className="img-fluid rounded-circle" src="assets/images/samuel_faucher.jfif" alt="Review" />
               </div>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-ios-star-half"></i>
               <h2>Samuel Faucher</h2>
               <h6>Web Developer</h6>
               <Link to="https://www.linkedin.com/in/samuel-faucher-857879182/">Linkedin</Link>
@@ -50,11 +36,6 @@ export default class Review extends Component {
               <div className="review-img">
                 <img className="img-fluid rounded-circle" src="assets/images/david_lelievre.jfif" alt="Review" />
               </div>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-ios-star-half"></i>
               <h2>David Lelièvre</h2>
               <h6>UI/UX Designer</h6>
               <Link to="https://www.linkedin.com/in/david-leli%C3%A8vre-276b9517a/">Linkedin</Link>
@@ -71,11 +52,6 @@ export default class Review extends Component {
               <div className="review-img">
                 <img className="img-fluid rounded-circle" src="./assets/images/patrick_boies.jfif" alt="Review" />
               </div>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
-              <i className="ion ion-star"></i>
               <h2>Patrick Boies</h2>
               <h6>Web Developer</h6>
               <Link to="https://www.linkedin.com/in/pboies/">Linkedin</Link>

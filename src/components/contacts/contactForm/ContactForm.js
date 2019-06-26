@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import Input from './Input'
 import TextArea from './TextArea'
-import Button from './Button'
 import * as emailjs from 'emailjs-com'
-import { Link } from 'react-router'
 
 export default class ContactForm extends Component {
     constructor(props) {
@@ -18,7 +16,7 @@ export default class ContactForm extends Component {
                 email: '',
                 subject: '',
                 message: '',
-            }
+            },
         }
     }
 
@@ -27,7 +25,6 @@ export default class ContactForm extends Component {
         const target = event.target
         const name = target.name
         const value = target.value
-
         this.setState({ [name]: value })
     }
 
@@ -65,12 +62,11 @@ export default class ContactForm extends Component {
         this.setState({
             errors: errors
         })
-
         return formIsValid
     }
+
     sentMessage(event) {
         event.preventDefault()
-
         if (!this.validateMail()) {
             return
         }
@@ -80,13 +76,11 @@ export default class ContactForm extends Component {
             subject: this.state.subject,
             message_html: this.state.message
         }
-
         emailjs.send('gmail', 'template_g4LmmuYN', templateParams, 'user_mrDwFPM5rZRXq7a4Io29b')
             .then(function (response) {
-
+                alert('Votre message a bien été envoyé!');
                 console.log('SUCCESS', response.status, response.text)
             }, function (err) {
-
                 console.log(err)
             })
         this.setState({
@@ -94,13 +88,10 @@ export default class ContactForm extends Component {
             email: '',
             subject: '',
             message: '',
-
         })
-
     }
     render() {
         return (
-
             <form
                 id={this.props.id}
                 className={this.props.className}
@@ -108,60 +99,48 @@ export default class ContactForm extends Component {
                 method={this.props.method}
                 action={this.props.action}
             >
-                <div className="form-group">
-                    <Input
-                        type="text"
-                        name="name"
-                        className="form-control"
-                        required="required"
-                        onChange={this.handleInputChange.bind(this)}
-                        value={this.state.name}
-                        error={this.state.errors.name}
-                    />
-                </div>
-                <div className="form-group">
-                    <Input
-                        type="email"
-                        name="email"
-                        className="form-control"
-                        required="required"
-                        onChange={this.handleInputChange.bind(this)}
-                        value={this.state.email}
-                        error={this.state.errors.email}
-                    />
-                </div>
-                <div className="form-group">
-                    <Input
-                        type="text"
-                        name="subject"
-                        className="form-control"
-                        required="required"
-                        onChange={this.handleInputChange.bind(this)}
-                        value={this.state.subject}
-                        error={this.state.errors.subject}
-                    />
-                </div>
-                <div className="form-group">
-                    <TextArea
-                        name="message"
-                        id="message"
-                        className="form-control"
-                        required="required"
-                        onChange={this.handleInputChange.bind(this)}
-                        value={this.state.message}
-                        error={this.state.errors.message}
-                    />
-                </div>
-                <Link
+                <Input
+                    type="text"
+                    name="Nom"
+                    className="form-control"
+                    required="required"
+                    onChange={this.handleInputChange.bind(this)}
+                    value={this.state.name}
+                    error={this.state.errors.name}
+                />
+                <Input
+                    type="email"
+                    name="Email"
+                    className="form-control"
+                    required="required"
+                    onChange={this.handleInputChange.bind(this)}
+                    value={this.state.email}
+                    error={this.state.errors.email}
+                />
+                <Input
+                    type="text"
+                    name="Sujet"
+                    className="form-control"
+                    required="required"
+                    onChange={this.handleInputChange.bind(this)}
+                    value={this.state.subject}
+                    error={this.state.errors.subject}
+                />
+                <TextArea
+                    name="Message"
+                    id="message"
+                    className="form-control"
+                    required="required"
+                    onChange={this.handleInputChange.bind(this)}
+                    value={this.state.message}
+                    error={this.state.errors.message}
+                />
+                <button
                     onClick={this.sentMessage.bind(this)}
-                    type='button'
                     name='submit'
-                    className='btn btn-primary btn-lg'
-                    required='required'>Envoyer</Link>
-
-
+                    className='btn-action'
+                    required='required'>Envoyer</button>
             </form>
-
         )
     }
 }

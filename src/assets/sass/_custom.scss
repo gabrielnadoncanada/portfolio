@@ -21,7 +21,6 @@ html * {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 body {
@@ -121,7 +120,6 @@ body {
   // }
 }
 
-
 // #large-circle {
 //   transform-origin: center;
 //   animation: rotate-right linear 30s infinite;
@@ -152,38 +150,61 @@ body {
 //   }
 // }
 
-
 .card-single {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.pro_1 {
-  background-image: url('../images/yntconstruction.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-}
-
-.pro_2 {
-  background-image: url('../images/miquelie.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-}
-
+.pro_1,
+.pro_2,
 .pro_3 {
-   background-image: url('../images/nuscratch.jpg');
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+}
+
+.pro_1 {
+  background: linear-gradient(rgba(255, 255,255, 0.15), rgba(255, 255, 255, 0.15)),
+    url("../images/yntconstruction.jpg") no-repeat center/cover;
+  display: flex !important;
+  align-items: center;
+}
+.pro_2 {
+  background: linear-gradient(rgba(255, 255,255, 0.15), rgba(255, 255, 255, 0.15)),
+  url("../images/miquelie.jpg") no-repeat center/cover;
+  display: flex !important;
+  align-items: center;
+}
+.pro_3 {
+  background: linear-gradient(rgba(255, 255,255, 0.15), rgba(255, 255, 255, 0.15)),
+  url("../images/nuscratch.jpg") no-repeat center/cover;
+  display: flex !important;
+  align-items: center;
 }
 
 #pricing .review-text {
   background: none;
+
+  h1 {
+    color: white;
+    margin-bottom: 1rem;
+  }
 }
 
 .slick-slide {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.custom-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  height: 100%;
+}
+
+
+
