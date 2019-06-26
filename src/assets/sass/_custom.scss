@@ -21,6 +21,7 @@ html * {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 body {
@@ -157,5 +158,32 @@ body {
   padding-right: 1rem;
 }
 
+.pro_1 {
+  background-image: url('../images/yntconstruction.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
 
+.pro_2 {
+  background-image: url('../images/miquelie.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
 
+.pro_3 {
+   background-image: url('../images/nuscratch.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+#pricing .review-text {
+  background: none;
+}
+
+.slick-slide {
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router'
 import Header from './components/Header.js'
 import Footer from './components/Footer.js'
-import Slide from './components/Slide.js';
-
+import Review from './components/Review.js';
+import Project from './components/Project.js';
 
 
 export default class App extends Component {
@@ -33,7 +33,6 @@ export default class App extends Component {
                         <span></span>
                       </div>
                     </div>
-
                     <div class="ring m">
                       <div class="dot two">
                         <span></span>
@@ -63,7 +62,6 @@ export default class App extends Component {
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -80,7 +78,7 @@ export default class App extends Component {
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
-                        <img src="assets/images/locate.svg" alt="Feature" />
+                        <img src="assets/icons/p1.png" width="60" alt="Feature" />
                       </div>
                     </div>
                     <div className="card-text">
@@ -93,7 +91,7 @@ export default class App extends Component {
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
-                        <img src="assets/images/process.svg" alt="Feature" />
+                        <img src="assets/icons/p2.png" width="60" alt="Feature" />
                       </div>
                     </div>
                     <div className="card-text">
@@ -170,58 +168,17 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          <div id="pricing" className="pricing-section text-center">
-            <div className="container">
+          <div id="pricing" className="pricing-section yd-reviews text-center">
+            <div className="container-s">
               <div className="row">
-                <div className="col-sm-8 offset-sm-2">
+                <div className="col-sm-12">
                   <div className="pricing-intro">
                     <h1>Mes projets actifs</h1>
                     <p>
                       Rien de mieux que quelques projets realiser avec passion.
-                </p>
+                    </p>
                   </div>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="table-left">
-                        <h3>Projets 1</h3>
-                        <p>Realiser pour nomDuSiteWeb.com</p>
-                        <div className="pricing-details">
-                          <span>Free</span>
-                        </div>
-                        <button className="btn btn-primary btn-action" type="button">Voir plus</button>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="table-right">
-                        <h3>Projets 2</h3>
-                        <p>Realiser pour nomDuSiteWeb.com</p>
-                        <div className="pricing-details">
-                          <span>$99.99</span>
-                        </div>
-                        <button className="btn btn-primary btn-action btn-white" type="button">Voir plus</button>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="table-left">
-                        <h3>Projets 3</h3>
-                        <p>Realiser pour nomDuSiteWeb.com</p>
-                        <div className="pricing-details">
-                          <span>Free</span>
-                        </div>
-                        <button className="btn btn-primary btn-action" type="button">Voir plus</button>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="table-right">
-                        <h3>Projets 4</h3>
-                        <p>Realiser pour nomDuSiteWeb.com</p>
-                        <div className="pricing-details">
-                          <span>$99.99</span>
-                        </div>
-                        <button className="btn btn-primary btn-action btn-white" type="button">Voir plus</button>
-                      </div>
-                    </div>
-                  </div>
+                  <Project />
                 </div>
               </div>
             </div>
@@ -235,7 +192,7 @@ export default class App extends Component {
                   </div>
                 </div>
                 <div className="col-sm-12 col-lg-12 text-center">
-                  <Slide />
+                <Review />
                 </div>
               </div>
             </div>

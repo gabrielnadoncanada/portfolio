@@ -8,10 +8,10 @@ export default class Footer extends Component {
             <div className="container-m">
               <div className="row">
                 <div className="col-md-4">
-                  <Link className="footer-logo" href="#">Pelican.</Link>
+                  <Link className="footer-logo" href="#">Gabriel Nadon</Link>
                 </div>
                 <div className="col-md-4">
-                  <h6>IOThemes 2018 Rights Reserved</h6>
+                  <h6>GN 2019 Rights Reserved</h6>
                 </div>
                 <div className="col-md-4">
                   <ul>

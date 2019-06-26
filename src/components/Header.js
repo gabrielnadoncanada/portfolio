@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 export default class Header extends Component {
     render() {
         return (
-            <header className="App-header">
+            <header id="header" className="App-header">
             <nav className="navbar navbar-light bg-light fixed-top">
               <div className="container container">
                 <Link id="logo" className="navbar-brand" href="#">GN</Link>

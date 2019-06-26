@@ -1,0 +1,142 @@
+// 
+// General
+// 
+*,::after,::before{box-sizing:border-box}
+.flex {display: flex;}
+.jc_end {justify-content: flex-end;}
+.jc_between {justify-content: space-between;}
+.jc_center {justify-content: center;}
+.ai_center {align-items: center;}
+
+.container {
+    @extend .mx_1;
+
+    .row {
+        @extend .flex;
+        position: relative;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        
+        .col {
+            max-width: 100%;
+            @extend .mx_1;
+        }
+    }
+}
+
+#banner {
+    min-height: 100vh;
+    @extend .flex;
+    @extend .ai_center;
+}
+
+
+
+.avatar {
+    width: 90px;
+}
+
+
+.tech {
+    width: 8rem;
+}
+
+.list-filtre {
+    @extend .flex;
+    flex-wrap: wrap;
+    align-items: center;
+    li {
+        display: inline-block;
+        padding: 1.2rem 2.5rem; 
+    }
+}
+
+
+.card {
+    position: relative;
+    .avatar {
+        position: absolute;
+        top: -45px;
+    }
+}
+
+
+.center {
+    @extend .flex;
+    @extend .ai_center;
+    @extend .jc_center;
+}
+
+#projects {
+    .row {
+        flex-wrap: wrap;
+        
+        .card {
+            flex-basis: 25%;
+            padding: 0;
+           
+            @extend .mb_3;
+            .card-body {
+                transition: 0.5s all;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background-color: rgba($primary, 1);
+                width: 100%;
+                height: 0;
+                opacity: 0;
+            }
+
+            &:hover {
+                .card-body {
+                   height: 100%;
+                   display: block;
+                   opacity: 1;
+                   @extend .p_2;
+                }
+            }
+        }
+    }
+
+}
+   
+img { width: 100%;}
+
+  #services .row {
+    @extend .mb_2;
+  }
+
+  .laptop {
+    position: relative;
+  }
+
+  .glow {
+    position: absolute;
+    width: 200px;
+    left: 38%;
+  }
+
+  #services .row .col {
+    border: 2px solid #fff;
+    box-shadow: 8px 8px 0 rgba(100, 86, 241, 0.3);
+  }
+
+
+  .slick-slide {
+    margin-right: 1rem;
+}
+  .slick-dots li button:before {
+      font-size: 15px !important;
+  }
+
+  .slick-arrow {
+      display: none !important;
+  }
+
+  .slide {
+      @extend .p_2;
+  }
+
+  .slick-dots {
+    top: 500px;
+  }
