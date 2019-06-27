@@ -103,56 +103,11 @@ body {
   transition: all;
   animation-fill-mode: none;
   animation-iteration-count: infinite;
-
-  // // rotate speed x1
-  // &_1 {
-  //   animation: rotate-right linear 10s;
-  // }
-
-  // // rotate speed x2
-  // &_2 {
-  //   animation: rotate-right linear 50s;
-  // }
-
-  // // rotate speed x3
-  // &_3 {
-  //   animation: rotate-right linear 80s;
-  // }
 }
 
-// #large-circle {
-//   transform-origin: center;
-//   animation: rotate-right linear 30s infinite;
-// }
-
-// #med-circle {
-//   transform-origin: center;
-//   animation: rotate-right linear 20s infinite;
-// }
-
-// #tiny-circle {
-//   transform-origin: center;
-//   animation: rotate-right linear 10s infinite;
-// }
-
-// #planet {
-//   overflow: visible;
-// }
-
-// @keyframes rotate-right {
-//   from {
-//     // transform: rotate3d(0, 0, 0, 0deg);
-//     transform: rotate(0deg)
-//   }
-//   to {
-//     transform: rotate(360deg)
-//     // transform: rotate3d(1, 1, 1, 360deg);
-//   }
-// }
 html {
   overflow-x: hidden;
 }
-
 
 .pro_1,
 .pro_2,
@@ -217,17 +172,27 @@ html {
   top: 10px;
 
   transition: 0.5s;
+
+
+  &:not(.collapsed){
+    right: 80%;
+  }
 }
+
+
 
 .navbar-nav {
   position: fixed !important;
   height: auto;
   width: 0;
-  right: 25px;
+  right: 0;
   opacity: 0;
-  transition: 0.5s;
-  top: 3.5rem;
-  border-radius: 0.25rem;
+  left: 0;
+  transition: 0.2s;
+  top: 0;
+  height: 100%;
+
+  margin-top: 0 !important;
   background: rgba(221, 221, 221, 1) !important;
   a {
     font-size: 1rem;
@@ -244,7 +209,7 @@ html {
 
 .collapse.show {
   .navbar-nav {
-    width: 300px;
+    width: 70%;
     opacity: 1;
   }
 }
@@ -271,3 +236,6 @@ html {
   margin: 30px 10px;
   padding: 50px 30px;
 }
+
+
+

@@ -10,7 +10,7 @@ export default class Header extends Component {
         <nav className="navbar navbar-light bg-light fixed-top">
           <div className="container">
             {/* <Link id="logo" className="navbar-brand" href="#">GN</Link> */}
-            <button id="menu-toggler" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button id="menu-toggler" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
