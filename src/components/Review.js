@@ -7,8 +7,17 @@ export default class Review extends Component {
   render() {
     var settings = {
       speed: 500,
-      slidesToShow: 1,
-    };
+      slidesToShow: 2,
+      responsive: [
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 1,
+
+              }
+          }
+      ]
+  };
     return (
       <div>
         <Slider {...settings}>

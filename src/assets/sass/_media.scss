@@ -7,7 +7,6 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: none !important;
-   
   }
 
   .navbar.effect-main {
@@ -51,10 +50,9 @@
 
   .hero {
     padding: 100px 0 300px 0;
-    background: #362E6A;
+    background: #362e6a;
   }
 
- 
   .hero h5 {
     font-size: 13px;
     font-weight: 600;
@@ -282,7 +280,7 @@
 
   .features {
     padding: 100px 0;
-    background: #F4F5F7;
+    background: #f4f5f7;
   }
 
   .features-intro {
@@ -428,7 +426,7 @@
     height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #ffffff;
+    background-color: #f4f5f7 !important;
   }
 
   .pricing-intro h1 {
@@ -979,7 +977,7 @@
 
   .yd-reviews {
     padding: 100px 0 100px 0;
-    background: #F4F5F7;
+    background: #f4f5f7;
     background-size: cover;
   }
 
@@ -1105,7 +1103,7 @@
 
   .cta-sm {
     padding: 100px 0 100px 0;
-    background: #F4F5F7;
+    background: #f4f5f7;
   }
 
   .cta-sm .cta-content {
@@ -1285,6 +1283,11 @@
     text-align: center;
   }
 
+  .slick-slide {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   .flex-split .f-right {
     flex: 1 0 50%;
     height: 360px;
@@ -1304,26 +1307,23 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  
   .navbar {
-      /*background: rgba(255, 255, 255, 0.99) !important;*/
-      padding-top: 10px;
-      padding-bottom: 10px;
+    /*background: rgba(255, 255, 255, 0.99) !important;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
- 
   .navbar-nav {
-      background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   .nav-white .nav-item .nav-link {
-      color: #4957B8;
+    color: #4957b8;
   }
 
   .navbar .btn-cta {
-      padding: 0 30px;
+    padding: 0 30px;
   }
-
 }
 
 @media only screen and (min-width: 767px) {
@@ -1481,7 +1481,6 @@
     margin-top: 0;
   }
 
-  
   .hero .hero-content {
     text-align: left;
   }

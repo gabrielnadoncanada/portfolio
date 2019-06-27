@@ -108,8 +108,8 @@ export default class App extends Component {
           </div>
 
 
-          <div id="pricing" className="pricing-section yd-reviews text-center">
-            <div className="container-s">
+          <div id="pricing" className="pricing-section text-center">
+            <div className="container-m">
               <div className="row">
                 <div className="col-sm-12">
                   <div className="pricing-intro">
@@ -124,14 +124,14 @@ export default class App extends Component {
             </div>
           </div>
           <div id="reviews" className="yd-reviews">
-            <div className="container-s">
+            <div className="container-m">
               <div className="row text-center">
-                <div className="col-sm-12 col-lg-8 offset-lg-2">
+                <div className="col-sm-12">
                   <div className="intro">
                     <h1>Quelques commentaires de clients et collegues</h1>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-8 offset-lg-2 text-center">
+                <div className="col-sm-12 text-center">
                   <Review />
                 </div>
               </div>
@@ -139,12 +139,8 @@ export default class App extends Component {
           </div>
           <div id="buy" className="cta-sm">
             <div className="container-m text-center">
-              <div className="cta-content mb-5">
-              
-                <h1>Contactez-moi</h1>
-
-              </div>
-              <div className="col-sm-12 col-md-8 offset-md-2 mt-5 ">
+              <div className="col-sm-12 col-md-8 offset-md-2 my-5 ">
+             
                 <ContactPage />
               </div>
             </div>

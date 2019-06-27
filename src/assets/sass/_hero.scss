@@ -23,8 +23,8 @@
 
   .dot span {
     display: block;
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     box-shadow: inset 0px 0px 0px 2px #959597;
   }
@@ -91,7 +91,7 @@
     width: 300px;
 
     .dot {
-      height: 350px;
+      height: 340px;
       z-index: 1;
       &.one {
         animation: orbitOne 30s linear infinite;
