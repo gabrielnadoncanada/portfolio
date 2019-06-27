@@ -23,7 +23,7 @@ export default class App extends Component {
                     <h2>Gabriel Nadon</h2>
                     <p>Passionné du développement web, j’aime comprendre le fonctionnement des éléments de mon environnement
                   et j’adore par-dessus tout résoudre des problèmes.</p>
-                    <button className="btn btn-primary btn-action" type="button">Me contacter</button>
+                    <a className="btn btn-primary btn-action js-scroll-trigger" href="#buy">Me contacter</a>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 flex justify-content-center align-items-center">

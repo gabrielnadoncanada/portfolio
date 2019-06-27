@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Input from './Input'
 import TextArea from './TextArea'
 import * as emailjs from 'emailjs-com'
+import Swal from 'sweetalert2'
 
 export default class ContactForm extends Component {
     constructor(props) {
@@ -78,7 +79,11 @@ export default class ContactForm extends Component {
         }
         emailjs.send('gmail', 'template_g4LmmuYN', templateParams, 'user_mrDwFPM5rZRXq7a4Io29b')
             .then(function (response) {
-                alert('Votre message a bien été envoyé!');
+                Swal.fire({
+                    title: 'Succès!',
+                    text: 'Votre message a bien été envoyer',
+                    type: 'success',
+                  })
                 console.log('SUCCESS', response.status, response.text)
             }, function (err) {
                 console.log(err)
