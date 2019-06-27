@@ -18,7 +18,7 @@ export default class App extends Component {
               <div className="row ">
                 <div className="col-sm-12 col-md-6 mt-5 mb-4">
                   <div className="hero-content">
-                    <h2>Mon portfolio</h2>
+                    <h2>Gabriel Nadon</h2>
                     <p>Passionné du développement web, j’aime comprendre le fonctionnement des éléments de mon environnement
                   et j’adore par-dessus tout résoudre des problèmes.</p>
                     <button className="btn btn-primary btn-action" type="button">Me contacter</button>
@@ -131,7 +131,7 @@ export default class App extends Component {
                     <h1>Quelques commentaires de clients et collegues</h1>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-12 text-center">
+                <div className="col-sm-12 col-lg-8 offset-lg-2 text-center">
                   <Review />
                 </div>
               </div>
@@ -144,7 +144,7 @@ export default class App extends Component {
                 <h1>Contactez-moi</h1>
 
               </div>
-              <div className="col-sm-6 offset-lg-3 mt-5 ">
+              <div className="col-sm-12 col-md-8 offset-md-2 mt-5 ">
                 <ContactPage />
               </div>
             </div>

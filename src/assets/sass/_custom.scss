@@ -164,20 +164,20 @@ body {
 }
 
 .pro_1 {
-  background: linear-gradient(rgba(255, 255,255, 0.15), rgba(255, 255, 255, 0.15)),
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
     url("../images/yntconstruction.jpg") no-repeat center/cover;
   display: flex !important;
   align-items: center;
 }
 .pro_2 {
-  background: linear-gradient(rgba(255, 255,255, 0.15), rgba(255, 255, 255, 0.15)),
-  url("../images/miquelie.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+    url("../images/miquelie.jpg") no-repeat center/cover;
   display: flex !important;
   align-items: center;
 }
 .pro_3 {
-  background: linear-gradient(rgba(255, 255,255, 0.15), rgba(255, 255, 255, 0.15)),
-  url("../images/nuscratch.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+    url("../images/nuscratch.jpg") no-repeat center/cover;
   display: flex !important;
   align-items: center;
 }
@@ -206,5 +206,56 @@ body {
   height: 100%;
 }
 
+.navbar-toggler {
+  background-color: rgba(221, 221, 221, 1);
+}
 
+#menu-toggler {
+  position: fixed;
+  right: 25px;
+  top: 10px;
 
+  transition: 0.5s;
+  // animation: menu linear 4s infinite;
+}
+
+.navbar-nav {
+  position: fixed !important;
+  height: auto;
+  width: 0;
+  left: 2rem;
+  right: 2rem;
+  opacity: 0;
+  transition: 0.5s;
+  top: 3.5rem;
+  border-radius: 0.25rem;
+  background: rgba(221, 221, 221, 1) !important;
+  a {
+    font-size: 1rem;
+    text-align: right;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+  }
+}
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapse.show {
+  .navbar-nav {
+    width:300px;
+    opacity: 1;
+    
+    
+  }
+}
+
+.contact-container {
+  border-radius: 0.25rem;
+}
+
+.form-control {
+  background-color: #f4f5f7 !important;
+}
