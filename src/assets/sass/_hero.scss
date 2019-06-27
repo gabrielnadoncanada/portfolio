@@ -1,3 +1,13 @@
+.ring-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .ring {
   position: absolute;
   border: 3px solid #959597;
@@ -17,11 +27,6 @@
     width: 45px;
     border-radius: 50%;
     box-shadow: inset 0px 0px 0px 2px #959597;
-
-    // &:hover {
-    //   box-shadow: inset 0px 0px 0px 2px #4285f4;
-    //   cursor: pointer;
-    // }
   }
 
   &.s {
@@ -30,17 +35,14 @@
 
     .dot {
       height: 125px;
-      z-index: 3; 
+      z-index: 3;
       &.three {
         animation: orbitThree 60s linear infinite;
 
         span {
-          animation: orbitThree 60s linear infinite;
+         
           background: white url(../images/stack/gatsby.svg);
         }
-        // &:hover {
-        //   animation-play-state: paused;
-        // }
       }
 
       &.four {
@@ -49,28 +51,22 @@
         span {
           background: white url(../images/stack/gulp.svg);
         }
-        // &:hover {
-        //   animation-play-state: paused;
-        // }
       }
     }
   }
   &.m {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
 
     .dot {
-      height: 250px;
-       z-index: 2; 
+      height: 225px;
+      z-index: 2;
       &.two {
         animation: orbitTwo 40s linear infinite;
 
         span {
           background: white url(../images/stack/jquery-1.svg);
         }
-        // &:hover {
-        //   animation-play-state: paused;
-        // }
       }
 
       &.three {
@@ -79,30 +75,24 @@
         span {
           background: white url(../images/stack/laravel-1.svg);
         }
-        // &:hover {
-        //   animation-play-state: paused;
-        // }
       }
       &.four {
-          animation: orbitFour 90s linear infinite;
+        animation: orbitFour 90s linear infinite;
 
-          span {
-            background: white url(../images/stack/nodejs.svg);
-          }
-          // &:hover {
-          //   animation-play-state: paused;
-          // }
+        span {
+          background: white url(../images/stack/nodejs.svg);
         }
+      }
     }
   }
 
   &.l {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 
     .dot {
-      height: 400px;
-      z-index: 1; 
+      height: 350px;
+      z-index: 1;
       &.one {
         animation: orbitOne 30s linear infinite;
 
@@ -111,83 +101,44 @@
           background-repeat: no-repeat;
           background-position: center;
         }
-        // &:hover {
-        //   animation-play-state: paused;
-        // }
       }
       &.two {
-            animation: orbitTwo 40s linear infinite;
+        animation: orbitTwo 40s linear infinite;
 
-            span {
-              background: white url(../images/stack/node-sass.svg);
-            }
-            // &:hover {
-            //   animation-play-state: paused;
-            // }
-          }
-
-          &.three {
-            animation: orbitThree 60s linear infinite;
-
-            span {
-              background: white url(../images/stack/npm.svg);
-            }
-            // &:hover {
-            //   animation-play-state: paused;
-            // }
-          }
-
-          &.four {
-            animation: orbitFour 90s linear infinite;
-
-            span {
-              background: white url(../images/stack/react.svg);
-            }
-            // &:hover {
-            //   animation-play-state: paused;
-            // }
-          }
-
-          &.five {
-            animation: orbitFive 150s linear infinite;
-            transition: 0.5s all;
-            span {
-              background: white url(../images/stack/wordpress.svg);
-            }
-            // &:hover {
-            //   animation-play-state: paused;
-            //   // &::before {
-            //   //   opacity: 1;
-            //   // }
-            // }
-
-            // &::before{
-            //   content: "blabla";
-            //   opacity: 0;
-            //   height: 0;
-            //   position: absolute;
-            //   top: -20px;
-            //   transition : 0.5s all;
-            //   background: black;
-            // }
-          }
+        span {
+          background: white url(../images/stack/node-sass.svg);
         }
       }
-  
+
+      &.three {
+        animation: orbitThree 60s linear infinite;
+
+        span {
+          background: white url(../images/stack/npm.svg);
+        }
+      }
+
+      &.four {
+        animation: orbitFour 90s linear infinite;
+
+        span {
+          background: white url(../images/stack/react.svg);
+        }
+      }
+
+      &.five {
+        animation: orbitFive 150s linear infinite;
+        transition: 0.5s all;
+        span {
+          background: white url(../images/stack/wordpress.svg);
+        }
+      }
+    }
+  }
 }
 
-.flex {
-  display: flex;
-}
 
-.ring-container {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 @keyframes orbitOne {

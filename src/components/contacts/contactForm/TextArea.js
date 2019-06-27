@@ -4,7 +4,6 @@ export default class TextArea extends Component {
     render() {
         return (
             <div className="form-group text-left">
-                <label className="mb-3" htmlFor={this.props.name}>{this.props.name}*</label>
                 <textarea
                     name={this.props.name}
                     id={this.props.id}
@@ -12,6 +11,7 @@ export default class TextArea extends Component {
                     className={this.props.className}
                     onChange={this.props.onChange}
                     value={this.props.value}
+                    placeholder={this.props.placeholder}
                 />
                 <span className='error'>{this.props.error}</span>
             </div>

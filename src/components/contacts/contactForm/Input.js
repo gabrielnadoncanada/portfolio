@@ -4,8 +4,6 @@ export default class Input extends Component {
     render() {
         return (
             <div className="form-group text-left">
-                <label className="mb-3" htmlFor={this.props.name}>{this.props.name}*</label>
-
                 <input
                     type={this.props.type}
                     name={this.props.name}
@@ -13,6 +11,7 @@ export default class Input extends Component {
                     required={this.props.required}
                     onChange={this.props.onChange}
                     value={this.props.value}
+                    placeholder={this.props.placeholder}
                 />
                 <span className='error'>{this.props.error}</span>
             </div>

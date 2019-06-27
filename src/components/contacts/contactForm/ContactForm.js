@@ -101,39 +101,43 @@ export default class ContactForm extends Component {
             >
                 <Input
                     type="text"
-                    name="Nom"
+                    name="name"
                     className="form-control"
                     required="required"
                     onChange={this.handleInputChange.bind(this)}
                     value={this.state.name}
                     error={this.state.errors.name}
+                    placeholder="Nom"
                 />
                 <Input
                     type="email"
-                    name="Email"
+                    name="email"
                     className="form-control"
                     required="required"
                     onChange={this.handleInputChange.bind(this)}
                     value={this.state.email}
                     error={this.state.errors.email}
+                    placeholder="Email"
                 />
                 <Input
                     type="text"
-                    name="Sujet"
+                    name="subject"
                     className="form-control"
                     required="required"
                     onChange={this.handleInputChange.bind(this)}
                     value={this.state.subject}
                     error={this.state.errors.subject}
+                    placeholder="Sujet"
                 />
                 <TextArea
-                    name="Message"
+                    name="message"
                     id="message"
                     className="form-control"
                     required="required"
                     onChange={this.handleInputChange.bind(this)}
                     value={this.state.message}
                     error={this.state.errors.message}
+                    placeholder="Message"
                 />
                 <button
                     onClick={this.sentMessage.bind(this)}
