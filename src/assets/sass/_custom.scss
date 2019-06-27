@@ -149,7 +149,9 @@ body {
 //     // transform: rotate3d(1, 1, 1, 360deg);
 //   }
 // }
-
+html {
+  overflow-x: hidden;
+}
 .card-single {
   padding-left: 1rem;
   padding-right: 1rem;
