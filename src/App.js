@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
 import Header from './components/Header.js'
 import Footer from './components/Footer.js'
 import Review from './components/Review.js';
@@ -86,8 +85,7 @@ export default class App extends Component {
                     </div>
                     <div className="card-text">
                       <h3>Développement Front-End</h3>
-                      <p>J'utilise les langages HTML5, CSS3 et le préprocesseur Sass, React et JavaScript.</p>
-                      <p>J'effectue quotidiennement une veille technologique afin de me tenir informée des dernières évolutions en matière de développement front-end : JavaScript, Jquery, React, Gatsby, Node.js, Gulp... </p>
+                      <p>En partant de la démarche commerciale souhaitée pour votre site, je développe et design le parcours de l'utilisateur sur vos pages: intégration de votre charte graphique, mise en évidence des actions prioritaires que vous souhaitez suggérer à l'utilisateur. Ceci comprend aussi la réactivité des interactions, la vitesse de chargement des pages, et le référencement.</p>
                     </div>
                   </div>
                 </div>
@@ -100,8 +98,7 @@ export default class App extends Component {
                     </div>
                     <div className="card-text">
                       <h3>Développement Back-End</h3>
-                      <p>J'utilise les langages PHP, MYSQL ainsi que Laravel et WordPress.</p>
-                      <p>J'aime me tenir informée des dernières évolutions en matière de développement back-end.</p>
+                      <p>Ceci comprend toutes les fonctionnalités de programmation que vous souhaitez intégrer à votre site: compte client (avec authentification et vérification des e-mails), magasinage en ligne, panier d'achats, lien à une base de données, intégration d'une interface de paiement en ligne, sécurité du site et des transactions, automatisation de tâches...</p>         
                     </div>
                   </div>
                 </div>

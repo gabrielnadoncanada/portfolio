@@ -15,12 +15,13 @@ export default class Header extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <div className="box"></div>
               <ul className="navbar-nav ml-auto navbar-right">
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#main">Intro</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#features">Expertises</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#pricing">Projets</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#reviews">Témoignages</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#buy">Contact</a></li>
+                <li className="nav-item"><a className="nav-link js-scroll-trigger link-1" href="#main">Intro</a></li>
+                <li className="nav-item "><a className="nav-link js-scroll-trigger link-2" href="#features">Expertises</a></li>
+                <li className="nav-item "><a className="nav-link js-scroll-trigger link-3" href="#pricing">Projets</a></li>
+                <li className="nav-item "><a className="nav-link js-scroll-trigger link-4" href="#reviews">Témoignages</a></li>
+                <li className="nav-item "><a className="nav-link js-scroll-trigger link-5" href="#buy">Contact</a></li>
               </ul>
 
             </div>

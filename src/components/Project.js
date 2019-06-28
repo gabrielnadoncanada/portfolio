@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
-import { Link } from 'react-router'
 
 export default class Project extends Component {
     render() {
