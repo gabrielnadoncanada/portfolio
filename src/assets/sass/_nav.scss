@@ -111,7 +111,7 @@
   right: 0;
   opacity: 0;
   left: 0;
-  transition: 0.5s;
+  transition: 0.4s;
   top: 0;
   height: 100%;
 
@@ -121,24 +121,25 @@
     font-size: 1.5rem;
     text-align: right;
     position: absolute;
-
+    opacity: 0;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     margin-bottom: 1rem !important;
     margin-top: 1rem !important;
-
+    right: -100%;
     &.link-1,
     &.link-2,
     &.link-3,
     &.link-4,
     &.link-5 {
-      right: -100%;
+      
       transition: 0.5s;
 
    
     }
     &.link-1 {
       top: 10%;
+    
     }
     &.link-2 {
       top: 20%;
@@ -168,6 +169,7 @@
     .link-3,
     .link-4,
     .link-5 {
+      opacity: 1;
       right: 10%;
     }
   }
