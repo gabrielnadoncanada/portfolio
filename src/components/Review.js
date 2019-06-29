@@ -7,7 +7,7 @@ export default class Review extends Component {
   render() {
     var settings = {
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: 1,
       
       responsive: [
           {
@@ -55,8 +55,7 @@ export default class Review extends Component {
             <div className="review-text">
               <h1>"Gabriel est bourré de talent et c’est un individu qui fait preuve de beaucoup de résilience.
                 Ceci fait en sorte qu'il réussit toujours à trouver des moyens nécessaires pour résoudre les
-                problèmes amenés par les différents projets. C’est également quelqu’un de travaillant, qui sait
-                mettre les heures nécessaires à la réalisation d’un travail."</h1>
+                problèmes amenés par les différents projets."</h1>
             </div>
             <div className="review-attribution">
               <div className="review-img">

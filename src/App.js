@@ -130,20 +130,16 @@ export default class App extends Component {
                     <h1>Quelques commentaires de clients et collegues</h1>
                   </div>
                 </div>
-                <div className="col-sm-12 text-center">
+                <div className="col-sm-6 mb-5 text-center">
                   <Review />
+                </div>
+                <div id="buy" className="col-sm-6 mb-5 text-center">
+                <ContactPage />
                 </div>
               </div>
             </div>
           </div>
-          <div id="buy" className="cta-sm">
-            <div className="container-m text-center">
-              <div className="col-sm-12 col-md-8 offset-md-2 my-5 ">
-             
-                <ContactPage />
-              </div>
-            </div>
-          </div>
+          
           <Footer />
           {/* <div id="back-top" className="bk-top">
             <div className="bk-top-txt">
