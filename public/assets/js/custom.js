@@ -27,6 +27,7 @@ jQuery(function ($) {
     if ($(e.target).is('a')) {
       $(this).removeClass('in').addClass('collapse');
     }
+   
   });
 
 

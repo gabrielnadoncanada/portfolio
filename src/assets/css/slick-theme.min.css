@@ -66,7 +66,7 @@
   color: #fff;
 }
 .slick-prev {
-  left: -25px;
+  left: 0px;
 }
 [dir="rtl"] .slick-prev {
   right: -25px;
@@ -80,7 +80,7 @@
   content: "→";
 }
 .slick-next {
-  right: -25px;
+  right: 0px;
 }
 [dir="rtl"] .slick-next {
   right: auto;
