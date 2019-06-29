@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 import Slider from "react-slick";
-import { Link } from 'react-router'
+
 
 export default class Review extends Component {
   render() {
@@ -34,7 +34,7 @@ export default class Review extends Component {
               </div>
               <h2>Samuel Faucher</h2>
               <h6>Web Developer</h6>
-              <Link to="https://www.linkedin.com/in/samuel-faucher-857879182/">Linkedin</Link>
+              <a href="https://www.linkedin.com/in/samuel-faucher-857879182/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             </div>
           </div>
           <div className="card-single">
@@ -48,7 +48,7 @@ export default class Review extends Component {
               </div>
               <h2>David Lelièvre</h2>
               <h6>UI/UX Designer</h6>
-              <Link to="https://www.linkedin.com/in/david-leli%C3%A8vre-276b9517a/">Linkedin</Link>
+              <a href="https://www.linkedin.com/in/david-leli%C3%A8vre-276b9517a/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             </div>
           </div>
           <div className="card-single">
@@ -63,7 +63,7 @@ export default class Review extends Component {
               </div>
               <h2>Patrick Boies</h2>
               <h6>Web Developer</h6>
-              <Link to="https://www.linkedin.com/in/pboies/">Linkedin</Link>
+              <a href="https://www.linkedin.com/in/pboies/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             </div>
           </div>
         </Slider>

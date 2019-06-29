@@ -26,40 +26,40 @@ export default class App extends Component {
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 flex justify-content-center align-items-center">
-                  <div class="ring-container">
-                    <div class="ring s">
-                      <div class="dot three">
+                  <div className="ring-container">
+                    <div className="ring s">
+                      <div className="dot three">
                         <span></span>
                       </div>
-                      <div class="dot four">
-                        <span></span>
-                      </div>
-                    </div>
-                    <div class="ring m">
-                      <div class="dot two">
-                        <span></span>
-                      </div>
-                      <div class="dot three">
-                        <span></span>
-                      </div>
-                      <div class="dot four">
+                      <div className="dot four">
                         <span></span>
                       </div>
                     </div>
-                    <div class="ring l">
-                      <div class="dot one">
+                    <div className="ring m">
+                      <div className="dot two">
                         <span></span>
                       </div>
-                      <div class="dot two">
+                      <div className="dot three">
                         <span></span>
                       </div>
-                      <div class="dot three">
+                      <div className="dot four">
                         <span></span>
                       </div>
-                      <div class="dot four">
+                    </div>
+                    <div className="ring l">
+                      <div className="dot one">
                         <span></span>
                       </div>
-                      <div class="dot five">
+                      <div className="dot two">
+                        <span></span>
+                      </div>
+                      <div className="dot three">
+                        <span></span>
+                      </div>
+                      <div className="dot four">
+                        <span></span>
+                      </div>
+                      <div className="dot five">
                         <span></span>
                       </div>
                     </div>

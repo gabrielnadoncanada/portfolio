@@ -15,9 +15,7 @@ export default class Footer extends Component {
                 </div>
                 <div className="col-md-12">
                   <ul>
-                    <li><Link to="#">Facebook</Link></li>
-                    <li><Link to="#">Twitter</Link></li>
-                    <li><Link to="#">Linkedin</Link></li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-nadon-3662a817b/" >Linkedin</a></li>
                   </ul>
                 </div>
               </div>
