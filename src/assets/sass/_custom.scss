@@ -115,7 +115,7 @@ html {
   background-position: center;
   background-size: cover;
   height: 400px;
-  border-radius: 0.25rem;
+  border-radius: 10px;
   line-height: 1.25;
 }
 
@@ -157,6 +157,7 @@ html {
 .contact-container {
   margin: 30px 10px;
   padding: 50px 30px;
+  border-radius: 10px;
 }
 
 .form-control {
@@ -165,7 +166,7 @@ html {
 
 .review-text,
 .review-attribution {
-  border-radius: 0.25rem;
+  border-radius: 10px;
 }
 
 .flex {

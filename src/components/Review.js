@@ -8,6 +8,7 @@ export default class Review extends Component {
     var settings = {
       speed: 500,
       slidesToShow: 2,
+      
       responsive: [
           {
               breakpoint: 768,
