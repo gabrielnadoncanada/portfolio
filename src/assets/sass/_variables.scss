@@ -1,0 +1,50 @@
+/*------------------------------------------
+-----------------  Variables   -------------
+------------------------------------------*/
+
+$color-1: #10178c;
+$color-2: #2e328c;
+$color-3: #118dbf;
+$color-4: #0db3d8;
+$color-5: #f2f2f2;
+
+$white: #ffffff;
+
+/*------------------------------------------
+-----------------  Assignations   -------------
+------------------------------------------*/
+
+.home,
+.features,
+.pricing-section,
+.navbar-toggler,
+.navbar-nav,
+.yd-reviews,
+.services-section {
+  background: $color-5 !important;
+}
+
+.hero {
+  background: $color-2 !important;
+}
+
+.footer-sm {
+  background: $color-2 !important;
+}
+
+.form .submit-button,
+.btn-action {
+  background: $color-3 !important;
+}
+
+.btn-action:focus,
+.btn-action:active {
+  background: $color-4 !important;
+}
+
+.feature-list,
+.yd-reviews .card-single .review-text,
+.yd-reviews .card-single .review-attribution,
+.btn-white {
+  background: $white !important;
+}

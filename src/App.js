@@ -141,19 +141,27 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          
+
           <div id="reviews" className="yd-reviews">
             <div className="container">
-              <div className="row text-center">
-                <div className="col-sm-12">
+              <div className="row justify-content-center text-center">
+                <div className="col-sm-6 mb-5 text-center">
                   <div className="intro">
                     <h1>Quelques commentaires de clients et collegues</h1>
                   </div>
-                </div>
-                <div className="col-sm-6 mb-5 text-center">
                   <Review />
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="contact" className="yd-reviews">
+            <div className="container">
+              <div className="row justify-content-center text-center">
                 <div id="buy" className="col-sm-6 mb-5 text-center">
+                  <div className="intro">
+                    <h1>Entrer en contact avec moi</h1>
+                  </div>
                   <ContactPage />
                 </div>
               </div>

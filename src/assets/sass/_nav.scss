@@ -68,19 +68,6 @@
   color: #ffffff;
 }
 
-.menu {
-  height: 100vh;
-  width: 0;
-  background: black;
-  position: absolute;
-  left: -250px;
-  display: none;
-}
-
-.navbar-toggler {
-  background-color: #fff;
-}
-
 #menu-toggler {
   position: fixed;
   right: 25px;
@@ -102,10 +89,8 @@
   top: 0;
   height: 100%;
   margin-top: 0 !important;
-  background: #fff !important;
 
   a {
-   
     text-align: right;
     position: absolute;
     opacity: 0;
@@ -119,14 +104,10 @@
     &.link-3,
     &.link-4,
     &.link-5 {
-      
       transition: 0.5s;
-
-   
     }
     &.link-1 {
       top: 10%;
-    
     }
     &.link-2 {
       top: 20%;
@@ -162,18 +143,15 @@
   }
 }
 
-
-
 #toggle-navbar {
   position: fixed;
   left: 0;
   width: 30%;
   top: 0;
   height: 100%;
- 
+
   z-index: -1;
 }
-
 
 #menu-toggler {
   svg {
@@ -185,24 +163,23 @@
   position: relative;
 }
 
-
-
-.bar1, .bar2, .bar3, .line {
-     transition: 0.5s; 
+.bar1,
+.bar2,
+.bar3,
+.line {
+  transition: 0.5s;
 }
 
-.navbar-toggler{
-  
+.navbar-toggler {
   &:not(.collapsed) {
     .bar1 {
-      transform: translate(15px,0px);
+      transform: translate(15px, 0px);
       .line {
         transform: rotate(45deg);
       }
     }
     .bar2 {
-     opacity: 0;
-      
+      opacity: 0;
     }
     .bar3 {
       transform: translate(-22px, 16px);
@@ -212,4 +189,3 @@
     }
   }
 }
-

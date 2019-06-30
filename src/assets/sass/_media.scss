@@ -44,13 +44,8 @@
     --------------- Hero Home Styling Starts -------------------
     ----------------------------------------------------------*/
 
-  .home {
-    background: #f7f8f9;
-  }
-
   .hero {
     padding: 100px 0 150px 0;
-    background: #362e6a;
   }
 
   .hero h5 {
@@ -156,7 +151,6 @@
     border-radius: 30px;
     margin-left: -50px;
     padding: 0 25px 0 25px;
-    background: #4285f4;
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 500;
@@ -247,8 +241,6 @@
     text-decoration: none !important;
     white-space: nowrap;
     cursor: pointer;
-    background-color: #387ed1;
-    background: #4285f4;
     color: #ffffff;
     border: 1px solid transparent !important;
     border-radius: 50px;
@@ -268,7 +260,6 @@
 
   .btn-action:focus,
   .btn-action:active {
-    background: #663399;
     color: #ffffff;
     border: 1px solid transparent !important;
     outline: none !important;
@@ -280,7 +271,6 @@
 
   .features {
     padding-top: 100px;
-    background: #f4f5f7;
   }
 
   .features-intro {
@@ -313,7 +303,6 @@
     margin: 30px 10px;
     padding: 50px 30px;
     border-radius: 10px;
-    background: #ffffff;
   }
   /*
     .card-icon {
@@ -337,10 +326,6 @@
     */
   .card-img img {
     vertical-align: middle;
-  }
-
-  .card-text {
-    // margin-top: 25px;
   }
 
   .card-text h3 {
@@ -424,9 +409,8 @@
   .pricing-section {
     width: 100%;
     height: 100%;
-  
+
     padding-top: 100px;
-    background-color: #f4f5f7 !important;
   }
 
   .pricing-intro h1 {
@@ -541,14 +525,8 @@
     margin-top: 0;
   }
 
-  .pricing-section .btn-action {
-    background-color: #4285f4;
-    border-color: #4285f4;
-  }
-
   .btn-white {
     color: #555da8;
-    background-color: #ffffff !important;
     border-color: #ffffff !important;
   }
 
@@ -637,8 +615,6 @@
     font-size: 34px;
     font-weight: normal;
     line-height: 1.55em;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   }
@@ -697,8 +673,6 @@
   }
 
   .flex-inner .f-text {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     text-align: center;
   }
@@ -739,7 +713,6 @@
     height: 1px;
     width: 50px;
     background: #8798ab;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
 
@@ -752,8 +725,6 @@
   }
 
   .flex-inner.flex-inverted .f-image {
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
     order: 1;
   }
 
@@ -768,22 +739,16 @@
   .ar-feature {
     text-align: center;
     display: block;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     overflow: hidden;
   }
 
   .ar-feature .ar-list {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 40%;
     flex: 1 0 40%;
     text-align: left;
   }
 
   .ar-feature .ar-image {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 40%;
     flex: 1 0 40%;
     margin-left: 0;
   }
@@ -835,7 +800,6 @@
 
   .services-section {
     padding: 75px 0;
-    background: rgb(246, 246, 253);
   }
 
   .service-intro {
@@ -903,11 +867,6 @@
   /*--------------------------------------
             --------- Stat Section Styling ---------
             --------------------------------------*/
-
-  .yd-stats {
-    padding: 100px 0;
-    background: #ffffff;
-  }
 
   .yd-stats .intro h4 {
     font-size: 12px;
@@ -977,7 +936,6 @@
 
   .yd-reviews {
     padding: 100px 0 100px 0;
-    background: #f4f5f7;
     background-size: cover;
   }
 
@@ -1018,7 +976,6 @@
   }
 
   .yd-reviews .card-single .review-text {
-    background: #ffffff;
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
@@ -1028,7 +985,6 @@
 
   .yd-reviews .card-single .review-attribution {
     padding-bottom: 30px;
-    background: #ffffff;
   }
 
   .yd-reviews .card-single h1 {
@@ -1290,7 +1246,7 @@
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   .flex-split .f-right {
     flex: 1 0 50%;
     height: 360px;
