@@ -1,11 +1,14 @@
-
-@import '../css/bootstrap.min.css';
+/*------------------------------------------
+-----------------  Partials   --------------
+------------------------------------------*/
+@import '~bootstrap/scss/bootstrap.scss';
 @import '../css/slick.css';
 @import '../css/slick-theme.min.css'; 
 @import '../css/ionicons.min.css';
 
 @import 'reset';
 @import 'custom';
+@import 'fonts';
 @import 'nav';
 @import 'media';
 @import 'footer';

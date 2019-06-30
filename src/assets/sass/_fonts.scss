@@ -1,0 +1,101 @@
+/*------------------------------------------
+-----------------   Fonts   ----------------
+------------------------------------------*/
+
+.back-to-top {
+  font-size: 12px;
+}
+
+.footer-sm ul li,
+.footer-sm ul li a,
+.back-to-top::hover {
+  font-size: 13px;
+}
+
+p,
+.navbar .nav-item {
+  font-size: 14px;
+}
+
+.nav-white .nav-item .nav-link {
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-size: 16px;
+}
+
+.footer-logo {
+  font-size: 18px;
+}
+
+.navbar a {
+  font-size: 24px;
+}
+
+.footer-sm ul li,
+.navbar .nav-item {
+  font-weight: 400;
+}
+
+.footer-sm h6,
+.footer-sm ul li a {
+  font-weight: 500;
+}
+
+.footer-sm .footer-logo,
+.navbar .navbar-brand {
+  font-weight: 600;
+}
+
+.back-to-top {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.footer-sm .footer-logo,
+.footer-sm .ul li,
+.back-to-top,
+.navbar {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+
+.footer-sm h6,
+.footer-sm .footer-logo,
+.footer-sm ul li,
+.footer-sm,
+.navbar, .navbar-brand {
+  letter-spacing: 0;
+}
+
+.navbar .nav-item,
+.nav-white .nav-item .nav-link {
+  text-transform: capitalize;
+}
+
+
+.back-to-top {
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+

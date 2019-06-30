@@ -7,7 +7,6 @@
   align-items: center;
 }
 
-
 .ring {
   position: absolute;
   border: 3px solid #959597;
@@ -25,14 +24,17 @@
     display: block;
     height: 40px;
     width: 40px;
+
     border-radius: 50%;
     box-shadow: inset 0px 0px 0px 2px #959597;
+
+    animation: appear 2s;
   }
 
   &.s {
     height: 75px;
     width: 75px;
-
+    animation: appear 1s;
     .dot {
       height: 125px;
       z-index: 3;
@@ -40,7 +42,6 @@
         animation: orbitThree 60s linear infinite;
 
         span {
-         
           background: white url(../images/stack/gatsby.svg);
         }
       }
@@ -57,7 +58,7 @@
   &.m {
     height: 175px;
     width: 175px;
-
+    animation: appear 2s;
     .dot {
       height: 225px;
       z-index: 2;
@@ -89,7 +90,7 @@
   &.l {
     height: 300px;
     width: 300px;
-
+    animation: appear 3s;
     .dot {
       height: 340px;
       z-index: 1;
@@ -136,10 +137,6 @@
     }
   }
 }
-
-
-
-
 
 @keyframes orbitOne {
   0% {
@@ -206,6 +203,12 @@
   }
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
 
-
-
+  to {
+    opacity: 1;
+  }
+}

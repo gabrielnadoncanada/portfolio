@@ -1,19 +1,13 @@
 /*------ Navbar Styling ------*/
 
 .navbar {
-  font-family: "Montserrat";
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: transparent !important;
-  -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
 
 .navbar .navbar-brand {
-  font-family: "Montserrat";
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0;
   color: #959597 !important;
   vertical-align: middle;
 }
@@ -43,16 +37,12 @@
   text-align: center;
   margin-top: 15px;
   background-color: transparent;
-  -webkit-transition: 0.5s all ease; /* For Safari 3.1 to 6.0 */
   transition: 0.5s all ease;
 }
 
 .navbar-nav .nav-item {
   margin-right: 0;
   margin-top: 1.5rem;
-  font-size: 0.85rem;
-  font-weight: 400;
-  text-transform: capitalize;
   color: #563d7c;
 }
 
@@ -66,14 +56,11 @@
 }
 
 .nav-white .nav-item .nav-link {
-  font-size: 0.92rem;
-  text-transform: capitalize;
   color: #ffffff;
 }
 
 .nav-white .nav-item .nav-link:hover {
   color: #00eaff;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -114,11 +101,11 @@
   transition: 0.4s;
   top: 0;
   height: 100%;
-
   margin-top: 0 !important;
   background: #fff !important;
+
   a {
-    font-size: 1.5rem;
+   
     text-align: right;
     position: absolute;
     opacity: 0;
