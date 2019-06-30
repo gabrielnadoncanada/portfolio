@@ -977,10 +977,10 @@
 
   .yd-reviews .card-single .review-text {
     padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
     text-align: center;
-    height: 300px;
+    height: 500px;
   }
 
   .yd-reviews .card-single .review-attribution {
@@ -1235,6 +1235,11 @@
     flex: 1;
     text-align: left;
   }
+  .yd-reviews .card-single .review-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 350px;
+  }
 }
 
 @media only screen and (max-width: 766px) {
@@ -1242,6 +1247,7 @@
     text-align: center;
   }
 
+  
   .slick-slide {
     padding-left: 0;
     padding-right: 0;
@@ -1289,6 +1295,12 @@
 @media only screen and (min-width: 767px) {
   .navbar-nav {
     margin-top: 0;
+  }
+
+  .yd-reviews .card-single .review-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 275px;
   }
 
   .navbar-nav .nav-item {

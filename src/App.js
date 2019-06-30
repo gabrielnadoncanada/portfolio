@@ -77,7 +77,7 @@ export default class App extends Component {
                     <h2>Plus d’informations sur mes spécialités</h2>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-12 col-md-6">
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
@@ -101,7 +101,7 @@ export default class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-12 col-md-6">
                   <div className="feature-list">
                     <div className="card-icon">
                       <div className="card-img">
