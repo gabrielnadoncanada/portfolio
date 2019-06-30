@@ -158,7 +158,7 @@ export default class App extends Component {
           <div id="contact" className="yd-reviews">
             <div className="container">
               <div className="row justify-content-center text-center">
-                <div id="buy" className="col-sm-6 mb-5 text-center">
+                <div id="buy" className="col-sm-12 col-md-8 col-lg-6 mb-5 text-center">
                   <div className="intro">
                     <h1>Entrer en contact avec moi</h1>
                   </div>
