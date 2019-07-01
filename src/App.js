@@ -122,7 +122,7 @@ export default class App extends Component {
               <div className="row text-center">
                 {features.map((feature, i) => (
                   <Card
-                  
+
                     key={feature.id}
                     cardClass={feature.cardClass}
                     cardImg={feature.cardImg}
@@ -160,18 +160,29 @@ export default class App extends Component {
             </div>
           </div>
 
-          <div id="contact" className="yd-reviews">
+          <div id="buy" class="cta-sm">
+            <div class="container-m text-center">
+              <div class="cta-content">
+                
+                <h1>Entrer en contact avec moi</h1>
+                <ContactPage />
+             
+              </div>
+            </div>
+          </div>
+
+          {/* <div id="contact" className="yd-reviews">
             <div className="container">
               <div className="row justify-content-center text-center">
                 <div id="buy" className="col-sm-12 col-md-8 col-lg-6 mb-5 text-center">
                   <div className="intro">
                     <h1>Entrer en contact avec moi</h1>
                   </div>
-                  <ContactPage />
+                  
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <Footer />
           {/* <div id="back-top" className="bk-top">
