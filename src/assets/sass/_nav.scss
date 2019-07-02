@@ -8,7 +8,6 @@
 }
 
 .navbar .navbar-brand {
-  color: #959597 !important;
   vertical-align: middle;
 }
 
@@ -43,11 +42,9 @@
 .navbar-nav .nav-item {
   margin-right: 0;
   margin-top: 1.5rem;
-  color: #563d7c;
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #364655;
   font-weight: 500;
 }
 
@@ -55,17 +52,8 @@
   background: transparent;
 }
 
-.nav-white .nav-item .nav-link {
-  color: #ffffff;
-}
-
 .nav-white .nav-item .nav-link:hover {
-  color: #00eaff;
   transition: 0.5s;
-}
-
-.nav-white .navbar-brand {
-  color: #ffffff;
 }
 
 #menu-toggler {

@@ -42,7 +42,7 @@ export default class Header extends Component {
                 <li className="nav-item "><a className="nav-link js-scroll-trigger link-2" href="#features">Expertises</a></li>
                 <li className="nav-item "><a className="nav-link js-scroll-trigger link-3" href="#pricing">Projets</a></li>
                 <li className="nav-item "><a className="nav-link js-scroll-trigger link-4" href="#reviews">Témoignages</a></li>
-                <li className="nav-item "><a className="nav-link js-scroll-trigger link-5" href="#buy">Contact</a></li>
+                <li className="nav-item "><a className="nav-link js-scroll-trigger link-5" href="#contact">Contact</a></li>
 
               </ul>
 

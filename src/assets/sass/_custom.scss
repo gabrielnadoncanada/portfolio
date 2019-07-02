@@ -17,7 +17,6 @@ html * {
   left: 0px;
   position: fixed;
   opacity: 1;
-  background-color: #f2f2f2;
   z-index: 9999;
   text-align: center;
 }
@@ -83,18 +82,10 @@ html {
   overflow-x: hidden;
 }
 
-.slick-slide {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .contact-container {
   padding: 50px 30px;
   border-radius: 10px;
-}
-
-.form-control {
-  background-color: #f4f5f7 !important;
+  margin: 30px 10px;
 }
 
 .review-text {
@@ -115,23 +106,10 @@ html {
   display: flex;
 }
 
-.pro_1 {
-  background: url("../images/yntconstruction.jpg") no-repeat center/cover;
-}
-
-.pro_2 {
-  background: url("../images/miquelie.jpg") no-repeat center/cover;
-}
-
-.pro_3 {
-  background: url("../images/nuscratch.jpg") no-repeat center/cover;
-}
-
 #pricing {
   .review-text {
     background: none;
     h1 {
-      color: white;
       margin-bottom: 1rem;
     }
   }
@@ -157,32 +135,14 @@ html {
       justify-content: center;
       z-index: 1;
       height: 400px;
-
-      p, h3 {
-        color: #fff
-      }
     }
   }
 }
 
-#reviews {
-  .cardBox {
-    .card-icon {
-      order: 2;
-    }
-    .card-img {
-      img {
-        width: 80px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-      }
+.slick-track {
+  display: flex !important;
+}
 
-      h3 {
-        margin-bottom: 10px;
-      }
-    }
-    .card-text {
-      margin-bottom: 20px;
-    }
-  }
+.slick-slide {
+  height: inherit !important;
 }

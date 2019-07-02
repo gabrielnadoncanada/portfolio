@@ -12,14 +12,12 @@
 }
 
 .footer-sm .footer-logo {
-  color: #ffffff;
   display: block;
   margin-bottom: 15px;
   text-decoration: none;
 }
 
 .footer-sm h6 {
-  color: #ffffff;
   display: inline-block;
 }
 
@@ -39,7 +37,7 @@
 .footer-sm ul li a {
   position: relative;
   display: inline-block;
-  color: #ffffff !important;
+
   text-decoration: none;
 }
 
@@ -50,11 +48,8 @@
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #ffffff;
   visibility: hidden;
-  -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
 }
 
@@ -66,49 +61,4 @@
 
 .no-touch .footer-sm ul li a:hover {
   text-decoration: none;
-  color: #000;
-}
-
-/* -------------------------------------------------------
-	----------- Bact-to-Top Styling Starts Here --------------
-	---------------------------------------------------------*/
-
-.bk-top {
-  position: fixed;
-  bottom: 60px;
-  right: 30px;
-  border-radius: 3px;
-  z-index: 90;
-  display: none;
-  width: 45px;
-  height: 45px;
-  background: #4285f4;
-  color: #f2f2f0;
-  border-radius: 50%;
-  display: table;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.bk-top-txt {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.back-to-top {
-  color: #ffffff;
-  text-decoration: none;
-  -webkit-transition: 200ms;
-  -moz-transition: 200ms;
-  -o-transition: 200ms;
-  transition: 200ms;
-}
-
-.back-to-top:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.back-to-top:focus {
-  color: #ffffff;
 }

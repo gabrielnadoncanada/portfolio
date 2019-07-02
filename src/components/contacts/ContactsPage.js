@@ -5,7 +5,6 @@ export default class ContactsPage extends Component {
     render() {
         return (
             <div className="bg-white contact-container">
-             
                 <ContactForm id='main-contact-form' className="contact-form" name="contact-form" method='post' action="" />
             </div>
         )

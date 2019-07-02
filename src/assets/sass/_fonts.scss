@@ -2,13 +2,22 @@
 -----------------   Fonts   ----------------
 ------------------------------------------*/
 
+@font-face {
+  src: url("../fonts/ProximaNova-Bold.ttf");
+  font-family: "ProximaNova-Bold";
+}
+
+@font-face {
+  src: url("../fonts/ProximaNova-Regular.ttf");
+  font-family: "ProximaNova-Regular";
+}
+
 .back-to-top {
   font-size: 12px;
 }
 
 .footer-sm ul li,
-.footer-sm ul li a,
-.back-to-top::hover {
+.footer-sm ul li a {
   font-size: 13px;
 }
 
@@ -68,20 +77,22 @@ h6,
 .footer-sm .footer-logo,
 .footer-sm .ul li,
 .back-to-top,
-.navbar {
-  font-family: "Montserrat";
+.navbar,
+.btn-action {
+  font-family: "ProximaNova-Bold";
 }
 
-p {
-  font-family: "Open Sans";
+p,
+a {
+  font-family: "ProximaNova-Regular";
 }
-
 
 .footer-sm h6,
 .footer-sm .footer-logo,
 .footer-sm ul li,
 .footer-sm,
-.navbar, .navbar-brand {
+.navbar,
+.navbar-brand {
   letter-spacing: 0;
 }
 
@@ -90,12 +101,9 @@ p {
   text-transform: capitalize;
 }
 
-
 .back-to-top {
   &:hover {
     color: #ffffff;
     text-decoration: none;
   }
 }
-
-

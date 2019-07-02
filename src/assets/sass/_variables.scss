@@ -2,13 +2,14 @@
 -----------------  Variables   -------------
 ------------------------------------------*/
 
-$color-1: #10178c;
+$color-1: #656acd;
 $color-2: #2e328c;
-$color-3: #118dbf;
-$color-4: #0db3d8;
+$color-3: #262969;
+$color-4: #302a96;
 $color-5: #f2f2f2;
 
 $white: #ffffff;
+$black: #000;
 
 /*------------------------------------------
 -----------------  Assignations   -------------
@@ -17,15 +18,38 @@ $white: #ffffff;
 .home,
 .features,
 .pricing-section,
-.navbar-toggler,
-.navbar-nav,
-.yd-reviews,
-.services-section {
+.services-section,
+#loading,
+.form-control,
+.form input,
+.cta-sm,
+body {
   background: $color-5 !important;
 }
 
-.hero {
+.hero,
+.yd-reviews,
+#contact {
   background: $color-2 !important;
+}
+
+.navbar-toggler {
+  background: white !important;
+  border: 2px solid 
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  fill: #302a96;
+}
+
+.navbar-nav .nav-item .nav-link{
+  color: $color-4 !important;
+}
+
+.navbar-nav {
+  background: white !important;
 }
 
 .footer-sm {
@@ -34,17 +58,144 @@ $white: #ffffff;
 
 .form .submit-button,
 .btn-action {
-  background: $color-3 !important;
+  background: $color-1 !important;
 }
 
 .btn-action:focus,
 .btn-action:active {
-  background: $color-4 !important;
+  background: $color-2 !important;
 }
 
 .cardBox,
 .yd-reviews .card-single .review-text,
 .yd-reviews .card-single .review-attribution,
-.btn-white {
+.btn-white,
+.footer-sm ul li a:before,
+.footer-sm ul li a:before {
   background: $white !important;
+}
+
+#contact .intro h2,
+#reviews .intro h2,
+#pricing .review-text h1,
+#pricing .cardBox .card-text p,
+#pricing .cardBox .card-text h3,
+.footer-sm .footer-logo,
+.footer-sm h6,
+.footer-sm ul li a,
+.nav-white .navbar-brand,
+.nav-white .nav-item .nav-link,
+.hero h2,
+.form .submit-button,
+.btn-action,
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active,
+.hero p,
+.footer-sm .footer-logo,
+.footer-sm h6,
+.footer-sm ul li a {
+  color: $white !important;
+}
+
+.no-touch .footer-sm ul li a:hover {
+  color: $black !important;
+}
+
+.navbar-nav .nav-item {
+  color: #563d7c;
+}
+
+.nav-white .nav-item .nav-link:hover {
+  color: #00eaff;
+}
+
+.navbar .navbar-brand,
+.service-intro p {
+  color: #959597 !important;
+}
+
+.form input {
+  color: #222222;
+}
+
+#email-error {
+  color: #ff3333;
+}
+
+#response {
+  color: #15ccbe;
+}
+
+.navbar.past-main .navbar-brand,
+.yd-reviews .card-single .review-attribution a,
+.hero h5 {
+  color: #4285f4 !important;
+}
+
+.nav-white.past-main .navbar-brand,
+.intro h2,
+.nav-white.past-main .nav-item .nav-link,
+.pricing-intro h1,
+.service-box h3,
+.yd-reviews .intro h1,
+.yd-reviews .card-single h1,
+.yd-reviews .card-single .review-attribution h2,
+.service-intro h2,
+.flex-inner .f-text h2,
+.flex-intro h2,
+.flex-split .f-left h2 {
+  color: #364655;
+}
+
+.intro p {
+  color: #5f6368;
+}
+
+.card-text h3,
+.flex-inner .f-text h1 {
+  color: #3a3a47;
+}
+
+.card-text p {
+  color: rgb(129, 129, 152);
+}
+
+.flex-inner .f-text p,
+.pricing-intro p {
+  color: #8b92ab;
+}
+
+.pricing-section .btn-white:hover,
+.btn-white {
+  color: #555da8;
+}
+
+.service-box p,
+.yd-reviews .intro p,
+.flex-inner .f-text p {
+  color: #959597;
+}
+
+.yd-reviews .intro a {
+  color: #0000ff;
+}
+
+.yd-reviews .card-single .review-attribution h6 {
+  color: #97a6b5;
+}
+
+.flex-inner .f-text .left-content a {
+  color: #8798ab;
+}
+.flex-inner .f-text .left-content a::after {
+  background: #8798ab;
+}
+
+.flex-intro p {
+  color: #959597;
+}
+
+.flex-split .f-left p {
+  color: #627382;
 }
