@@ -20,14 +20,26 @@ jQuery(function ($) {
 
   });
 
+  $('#contact-form').on('click', function (e) {
+    e.preventDefault();
+    $('#contact').collapse('hide');
+  });
+  
+  
+  $('#menu-toggler').on('click', function () {
+    $('html').toggleClass('disable-scroll');
+  });
 
+  $('#toggle-navbar').on('click', function () {
+    $('html').toggleClass('disable-scroll');
+  });
   // Collapse navbar on click
 
   $(document).on('click.nav', '.navbar-collapse.in', function (e) {
     if ($(e.target).is('a')) {
       $(this).removeClass('in').addClass('collapse');
     }
-    
+   
   });
 
 
@@ -52,6 +64,29 @@ jQuery(function ($) {
   });
 
 
+  /*-------- Owl Carousel ---------- */
+
+  $(".review-cards").owlCarousel({
+    slideSpeed: 200,
+
+
+
+    margin: 10,
+
+    pagination: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      766: {
+        items: 2,
+      },
+      
+    }
+  });
+
+
+
   /* ------ jQuery for Easing min -- */
   (function ($) {
     "use strict"; // Start of use strict
@@ -73,6 +108,7 @@ jQuery(function ($) {
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').on('click', function () {
       $('.navbar-collapse').collapse('hide');
+      $('html').removeClass('disable-scroll');
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
@@ -89,6 +125,13 @@ jQuery(function ($) {
   new WOW().init();
 
 
+  /* ----- Counter Up ----- */
+
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
+
   /*----- Preloader ----- */
 
   $(window).on('load', function () {
@@ -99,6 +142,28 @@ jQuery(function ($) {
   });
 
 
+  /*----- Subscription Form ----- */
+
+  $(document).ready(function () {
+    // jQuery Validation
+    $("#chimp-form").validate({
+      // if valid, post data via AJAX
+      submitHandler: function (form) {
+        $.post("assets/php/subscribe.php", { email: $("#chimp-email").val() }, function (data) {
+          $('#response').html(data);
+        });
+      },
+      // all fields are required
+      rules: {
+        email: {
+          required: true,
+          email: true
+        }
+      }
+    });
+  });
+
+});
 
 
-})
+

@@ -20,7 +20,19 @@ jQuery(function ($) {
 
   });
 
+  $('#contact-form').on('click', function (e) {
+    e.preventDefault();
+    $('#contact').collapse('hide');
+  });
+  
+  
+  $('#menu-toggler').on('click', function () {
+    $('html').toggleClass('disable-scroll');
+  });
 
+  $('#toggle-navbar').on('click', function () {
+    $('html').toggleClass('disable-scroll');
+  });
   // Collapse navbar on click
 
   $(document).on('click.nav', '.navbar-collapse.in', function (e) {
@@ -96,6 +108,7 @@ jQuery(function ($) {
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').on('click', function () {
       $('.navbar-collapse').collapse('hide');
+      $('html').removeClass('disable-scroll');
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
@@ -154,7 +167,3 @@ jQuery(function ($) {
 
 
 
-$('#contact-form').on('click', function (e) {
-  e.preventDefault();
-  $('#contact').collapse('hide');
-});

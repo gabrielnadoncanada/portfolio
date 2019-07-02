@@ -146,3 +146,8 @@ html {
 .slick-slide {
   height: inherit !important;
 }
+
+
+html.disable-scroll {
+  overflow-y: hidden !important;
+}
