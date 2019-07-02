@@ -1,3 +1,15 @@
+.hero-content {
+  h2,
+  p,
+  a {
+    animation: appear 2s;
+  }
+}
+
+#menu-toggler {
+  animation: appear 2s;
+}
+
 .ring-container {
   position: relative;
   width: 400px;
