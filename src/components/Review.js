@@ -15,7 +15,7 @@ export default class Review extends Component {
           'cardText': <p>"Étant toujours prêt à relever de nouveaux défis, Gabriel a su se démarquer dans le domaine du
           web. Sa créativité, son implication et sa grande capacité à résoudre les problèmes font de lui un
           excellent développeur avec beaucoup de potentiel."</p>,
-          'cardLink': <a href="https://www.linkedin.com/in/samuel-faucher-857879182/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          'cardLink': <a href="https://www.linkedin.com/in/samuel-faucher-857879182/" className="link" target="_blank" rel="noopener noreferrer">Linkedin</a>
         },
         {
           'cardClass': 'col',
@@ -23,7 +23,7 @@ export default class Review extends Component {
           'cardTitle': <h3>David Lelièvre, UI/UX designer</h3>,
           'cardText': <p>Gabriel aime comprendre le fonctionnement d'un système et d'un langage. Quand il a compris, il
           l'exploite jusqu'au bout. Il est travailleur, et a une expérience avec la clientèle.</p>,
-          'cardLink': <a href="https://www.linkedin.com/in/david-leli%C3%A8vre-276b9517a/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          'cardLink': <a href="https://www.linkedin.com/in/david-leli%C3%A8vre-276b9517a/" className="link" target="_blank" rel="noopener noreferrer">Linkedin</a>
         },
         { 
           'cardClass': 'col',
@@ -32,7 +32,7 @@ export default class Review extends Component {
           'cardText': <p>Gabriel est bourré de talent et c’est un individu qui fait preuve de beaucoup de résilience.
           Ceci fait en sorte qu'il réussit toujours à trouver des moyens nécessaires pour résoudre les
         problèmes amenés par les différents projets.</p>,
-          'cardLink': <a href="https://www.linkedin.com/in/pboies/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          'cardLink': <a href="https://www.linkedin.com/in/pboies/" target="_blank" className="link" rel="noopener noreferrer">Linkedin</a>
         }
       ],
     }
