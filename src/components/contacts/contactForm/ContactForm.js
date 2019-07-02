@@ -34,29 +34,29 @@ export default class ContactForm extends Component {
         let formIsValid = true
 
         if (!this.state.name || this.state.name.length < 3) {
-            errors.name = 'Minimum 3 symbols'
+            errors.name = 'Un minimum 3 symboles est requis'
             formIsValid = false
         }
 
         if (!this.state.subject || this.state.subject.length < 3) {
-            errors.subject = 'Minimum 3 symbols'
+            errors.subject = 'Un minimum 3 symboles est requis'
             formIsValid = false
         }
 
         if (!this.state.message || this.state.message.length < 10) {
-            errors.message = 'Minimum 3 symbols'
+            errors.message = 'Un minimum 3 symboles est requis'
             formIsValid = false
         }
 
         if (!this.state.email || this.state.email.length < 3) {
-            errors.email = 'Minimum 3 symbols'
+            errors.email = 'Un minimum 3 symboles est requis'
             formIsValid = false
         }
 
         let pattern = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
 
         if (!pattern.test(this.state.email)) {
-            errors.email = 'this is not a valid email'
+            errors.email = "Ce n'est pas une adresse courriel valide"
             formIsValid = false
         }
 
