@@ -72,18 +72,19 @@ h2,
 h3,
 h4,
 h5,
-h6,
 .navbar-brand,
 .footer-sm .footer-logo,
 .footer-sm .ul li,
 .back-to-top,
 .navbar,
-.btn-action {
+.btn-action, a {
   font-family: "ProximaNova-Bold";
 }
 
 p,
-a {
+input,
+textarea,
+h6 {
   font-family: "ProximaNova-Regular";
 }
 
