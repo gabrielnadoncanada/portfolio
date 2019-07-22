@@ -69,7 +69,7 @@ export default class App extends Component {
               <div className="row ">
                 <div className="col-sm-12 col-md-6 mt-5 mb-4">
                   <div className="hero-content">
-                    <h2>Nadon Gabriel</h2>
+                    <h1>Nadon Gabriel</h1>
                     <p>Passionné du développement web, j’aime comprendre le fonctionnement des éléments de mon environnement
                   et j’adore par-dessus tout résoudre des problèmes.</p>
                     <a className="btn btn-primary btn-action js-scroll-trigger" href="#contact">Me contacter</a>
