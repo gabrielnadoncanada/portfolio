@@ -5,6 +5,8 @@ import Review from './components/Review.js';
 import Project from './components/Project.js';
 import ContactPage from './components/contacts/ContactsPage.js'
 import Card from './components/Card.js'
+import Helmet from 'react-helmet'
+
 
 export default class App extends Component {
   constructor(props) {
@@ -52,14 +54,22 @@ export default class App extends Component {
     const { features } = this.state
     return (
       <div className="App">
+        <Helmet>
+          <title>Nadon Gabriel Développeur Web Front-End</title>
+          <meta name="description" content="Todos on steroid!" />
+          <meta name="theme-color" content="#008f68" />
+        </Helmet>
+        {/* header */}
         <Header />
         <div id="main" className="main">
+
+          {/* hero section */}
           <div className="hero">
             <div className="container">
               <div className="row ">
                 <div className="col-sm-12 col-md-6 mt-5 mb-4">
                   <div className="hero-content">
-                    <h2>Gabriel Nadon</h2>
+                    <h2>Nadon Gabriel</h2>
                     <p>Passionné du développement web, j’aime comprendre le fonctionnement des éléments de mon environnement
                   et j’adore par-dessus tout résoudre des problèmes.</p>
                     <a className="btn btn-primary btn-action js-scroll-trigger" href="#contact">Me contacter</a>
@@ -108,6 +118,8 @@ export default class App extends Component {
               </div>
             </div>
           </div>
+
+          {/* features section */}
           <div id="features" className="features">
             <div className="container">
               <div className="row text-center">
@@ -131,6 +143,7 @@ export default class App extends Component {
             </div>
           </div>
 
+          {/* reviews section         */}
           <div id="reviews" className="yd-reviews">
             <div className="container">
               <div className="row justify-content-center text-center">
@@ -143,7 +156,7 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-
+          {/* pricing section */}
           <div id="pricing" className="pricing-section text-center">
             <div className="container">
               <div className="row">
@@ -157,11 +170,12 @@ export default class App extends Component {
             </div>
           </div>
 
-          <div id="contact" class="cta-sm">
-            <div class="container text-center">
+          {/* contact section */}
+          <div id="contact" className="cta-sm">
+            <div className="container text-center">
               <div className="row justify-content-center text-center">
                 <div className="col-sm-12 col-md-8 col-lg-6 mb-5 text-center">
-                  <div class="intro">
+                  <div className="intro">
                     <h2>Entrer en contact avec moi</h2>
                   </div>
                   <ContactPage />

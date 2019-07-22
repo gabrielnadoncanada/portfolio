@@ -36,10 +36,6 @@
     transition: all 0.3s;
   }
 
-  .navbar.past-main .nav-item .nav-link {
-    font-weight: 500;
-  }
-
   .navbar.past-main span.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
@@ -57,26 +53,10 @@
   }
 
   .hero h5 {
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.2;
-    letter-spacing: 1px;
     margin-bottom: 20px;
   }
 
-  .hero h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    line-height: 1.3;
-    letter-spacing: -1px;
-  }
-
   .hero p {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0;
     margin-top: 20px;
   }
 
@@ -86,10 +66,6 @@
 
   .hero-img-box img {
     margin-top: 50px;
-  }
-
-  .form-note p {
-    font-size: 12px;
   }
 
   .hero .row,
@@ -116,8 +92,6 @@
 
   .form input {
     padding: 0;
-    font-size: 13px;
-    font-weight: 500;
     height: 45px;
     border: 0;
     border-radius: 30px;
@@ -137,10 +111,6 @@
     border-radius: 30px;
     margin-left: -50px;
     padding: 0 25px 0 25px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: capitalize;
-    letter-spacing: 0;
     cursor: pointer;
     outline: none;
     box-shadow: 0 5px 30px rgba(255, 255, 255, 0.05);
@@ -152,8 +122,6 @@
     left: 20%;
     right: 0;
     bottom: 0%;
-    font-size: 13px;
-    font-weight: 500;
   }
 
   #response {
@@ -161,19 +129,12 @@
     left: 20%;
     bottom: -90%;
     vertical-align: middle;
-    font-size: 13px !important;
-    font-weight: 500 !important;
+
     margin: 0 !important;
   }
 
   #response h4 {
-    font-size: 13px !important;
-    font-weight: 500 !important;
     text-align: center;
-  }
-
-  .form-note p {
-    font-size: 12px;
   }
 
   @media only screen and (max-width: 420px) {
@@ -192,12 +153,7 @@
     height: 45px;
     padding: 0 30px;
     text-align: center;
-    font-size: 0.8rem;
-    font-weight: 600;
-    line-height: 42px;
-    letter-spacing: 2px;
     margin: 20px 0;
-    text-transform: uppercase;
     text-decoration: none !important;
     white-space: nowrap;
     cursor: pointer;
@@ -231,7 +187,6 @@
 
   #contact {
     padding-top: 100px;
-   
   }
 
   .intro {
@@ -239,19 +194,12 @@
   }
 
   .intro h2 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.3;
     max-width: 540px;
     margin: 0 auto;
     margin-bottom: 10px;
   }
 
   .intro p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     max-width: 540px;
     margin: 0 auto;
     margin-top: 15px;
@@ -272,15 +220,10 @@
   }
 
   .card-text h3 {
-    font-size: 21px;
-    font-weight: 600;
     margin-bottom: 15px;
   }
 
   .card-text p {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.6;
     max-width: 320px;
     margin: 0 auto;
   }
@@ -303,25 +246,15 @@
   }
 
   .flex-inner .f-text h1 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.4;
-    letter-spacing: -1px;
     margin-top: 20px;
   }
 
   .flex-inner .f-text p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     margin-top: 15px;
     margin-bottom: 10px;
   }
 
   .flex-inner .f-text .left-content a {
-    font-size: 14px;
-    font-weight: bold;
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -350,17 +283,10 @@
   }
 
   .pricing-intro h1 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.4;
     margin-bottom: 50px;
   }
 
   .pricing-intro p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     margin-top: 10px;
     margin-bottom: 50px;
   }
@@ -413,17 +339,10 @@
   }
 
   .flex-split .f-left h2 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.2;
     margin-top: 40px;
   }
 
   .flex-split .f-left p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.4;
-    letter-spacing: 1px;
     margin-top: 20px;
     margin-bottom: 30px;
   }
@@ -450,17 +369,10 @@
   }
 
   .flex-intro h2 {
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.3;
     margin-bottom: 10px;
   }
 
   .flex-intro p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     max-width: 630px;
     margin: 0 auto;
     margin-top: 15px;
@@ -485,24 +397,15 @@
   }
 
   .flex-inner .f-text h2 {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.3;
     margin-top: 20px;
   }
 
   .flex-inner .f-text p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
   .flex-inner .f-text .left-content a {
-    font-size: 14px;
-    font-weight: bold;
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -546,17 +449,10 @@
   }
 
   .service-intro h2 {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.3;
     margin-top: 20px;
   }
 
   .service-intro p {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -567,17 +463,7 @@
     overflow: hidden;
   }
 
-  .service-box h3 {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-
   .service-box p {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
     margin-top: 10px;
     margin-bottom: 15px;
   }
@@ -614,21 +500,11 @@
   }
 
   .yd-reviews .intro h1 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.2;
     margin-bottom: 20px;
   }
 
   .yd-reviews .intro p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
     margin: 0px auto;
-  }
-
-  .yd-reviews .intro p:nth-child(4) {
-    font-size: 13px;
   }
 
   .yd-reviews .intro a {
@@ -652,29 +528,14 @@
   }
 
   .yd-reviews .card-single h1 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0;
     margin-bottom: 0;
   }
 
   .yd-reviews .card-single .review-attribution h2 {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.4;
     margin-top: 5px;
   }
 
-  .yd-reviews .card-single .review-attribution h6 {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.4;
-  }
-
   .yd-reviews .card-single .review-attribution a {
-    font-size: 12px;
-    font-weight: 500;
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -730,14 +591,9 @@
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
-    display: block;
-    margin-bottom: 15px;
-    text-decoration: none;
   }
 
   .footer-sm h6 {
-    font-size: 13px;
-    font-weight: 500;
     letter-spacing: 0;
     display: inline-block;
   }
@@ -749,8 +605,6 @@
   }
 
   .footer-sm ul li {
-    font-size: 15px;
-    font-weight: 400;
     letter-spacing: 0;
     display: inline-block;
     margin-left: 6px;
@@ -758,8 +612,6 @@
   }
 
   .footer-sm ul li a {
-    font-size: 15px;
-    font-weight: 500;
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -873,37 +725,11 @@
   .navbar-nav .nav-item {
     margin-top: 0;
     margin-right: 0px;
-    font-size: 0.85rem;
-    font-weight: 400;
   }
 
   .container-s {
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .hero h2 {
-    font-size: 38px;
-  }
-
-  .intro h2 {
-    font-size: 34px;
-  }
-
-  .yd-stats .intro h2 {
-    font-size: 34px;
-  }
-
-  .yd-reviews .intro h1 {
-    font-size: 34px;
-  }
-
-  .pricing-intro h1 {
-    font-size: 34px;
-  }
-
-  .cta-sm h1 {
-    font-size: 34px;
   }
 
   .flex-inner {
@@ -919,15 +745,6 @@
     flex: 0 0 400px;
   }
 
-  .flex-inner .f-text h1 {
-    font-size: 32px;
-  }
-
-  .flex-inner .f-text p {
-    font-size: 16px;
-    font-weight: 500;
-  }
-
   .hero {
     padding: 175px 0 200px 0;
   }
@@ -938,10 +755,6 @@
 
   .flex-split {
     flex-direction: row;
-  }
-
-  .flex-split .f-left h2 {
-    font-size: 34px;
   }
 
   .flex-split .f-left {
@@ -961,20 +774,8 @@
     margin-left: 25px;
   }
 
-  .service-intro h2 {
-    font-size: 32px;
-  }
-
-  .service-intro p {
-    font-size: 16px;
-  }
-
   .service-box {
     padding: 30px 30px;
-  }
-
-  .counter-up h3 {
-    font-size: 32px;
   }
 
   .footer-sm {
@@ -983,7 +784,6 @@
 
   .footer-sm .footer-logo {
     margin-bottom: 0;
-    font-size: 16px;
     display: block;
   }
 

@@ -1,15 +1,9 @@
-// Custom Scripts for Pelican Template //
+
 
 jQuery(function ($) {
   "use strict";
-
-  // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
   var mainbottom = $('#main').offset().top;
-
-  // on scroll,
   $(window).on('scroll', function () {
-
-    // we round here to reduce a little workload
     stop = Math.round($(window).scrollTop());
     if (stop > mainbottom) {
       $('.navbar').addClass('past-main');
@@ -25,7 +19,6 @@ jQuery(function ($) {
     $('#contact').collapse('hide');
   });
   
-  
   $('#menu-toggler').on('click', function () {
     $('html').toggleClass('disable-scroll');
   });
@@ -33,13 +26,11 @@ jQuery(function ($) {
   $('#toggle-navbar').on('click', function () {
     $('html').toggleClass('disable-scroll');
   });
-  // Collapse navbar on click
 
   $(document).on('click.nav', '.navbar-collapse.in', function (e) {
     if ($(e.target).is('a')) {
       $(this).removeClass('in').addClass('collapse');
     }
-   
   });
 
 
@@ -54,7 +45,6 @@ jQuery(function ($) {
       $('#back-top').fadeOut();
     }
   });
-  // scroll body to 0px on click
   $('#back-top').on('click', function () {
     $('#back-top').tooltip('hide');
     $('body,html').animate({
@@ -62,17 +52,11 @@ jQuery(function ($) {
     }, 1500);
     return false;
   });
-
-
   /*-------- Owl Carousel ---------- */
 
   $(".review-cards").owlCarousel({
     slideSpeed: 200,
-
-
-
     margin: 10,
-
     pagination: false,
     responsive: {
       0: {
@@ -81,17 +65,14 @@ jQuery(function ($) {
       766: {
         items: 2,
       },
-      
     }
   });
 
-
-
-  /* ------ jQuery for Easing min -- */
+  
   (function ($) {
-    "use strict"; // Start of use strict
+   
 
-    // Smooth scrolling using jQuery easing
+    
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
@@ -120,18 +101,6 @@ jQuery(function ($) {
   })(jQuery); // End of use strict
 
 
-  /* --------- Wow Init ------ */
-
-  new WOW().init();
-
-
-  /* ----- Counter Up ----- */
-
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
   /*----- Preloader ----- */
 
   $(window).on('load', function () {
@@ -139,28 +108,6 @@ jQuery(function ($) {
       $('#loading').fadeOut('slow', function () {
       });
     }, 3000);
-  });
-
-
-  /*----- Subscription Form ----- */
-
-  $(document).ready(function () {
-    // jQuery Validation
-    $("#chimp-form").validate({
-      // if valid, post data via AJAX
-      submitHandler: function (form) {
-        $.post("assets/php/subscribe.php", { email: $("#chimp-email").val() }, function (data) {
-          $('#response').html(data);
-        });
-      },
-      // all fields are required
-      rules: {
-        email: {
-          required: true,
-          email: true
-        }
-      }
-    });
   });
 
 });
