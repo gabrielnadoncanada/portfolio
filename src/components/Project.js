@@ -27,6 +27,13 @@ export default class Project extends Component {
                     'cardTitle': <h3>NuScratch</h3>,
                     'cardText': <p>Création d’une plateforme d'échanges d’album de musique avec API Rest ,React.js ainsi que Bootstrap.</p>,
                     'cardLink': <a className="btn btn-primary btn-action" href="https://gabrielnadoncanada.github.io/reactalbum/#/" target="_blank" rel="noopener noreferrer">Voir plus</a>
+                },
+ {
+                    'cardClass': 'col',
+                    'cardImg': <img src="./assets/images/rcvn.jpg"></img>,
+                    'cardTitle': <h3>RCVN</h3>,
+                    'cardText': <p>Création d’un site web static pour une compagnie de construction spécialisé en toiture.</p>,
+                    'cardLink': <a className="btn btn-primary btn-action" href="https://rcvn.ca" target="_blank" rel="noopener noreferrer">Voir plus</a>
                 }
             ],
         }
